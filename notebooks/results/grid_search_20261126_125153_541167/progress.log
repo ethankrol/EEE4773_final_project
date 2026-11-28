@@ -1,0 +1,680 @@
+2026-11-26T12:51:53  Run folder: C:\Users\gthra\Coding\Machine Learing Theory\EEE4773_final_project\results\grid_search_20261126_125153_541167
+2026-11-26T12:51:53  Search plan: 57 classifier configurations per latent size, 3 latent sizes, 3 outer folds, 45 autoencoder trainings, 513 calibrated classifier fits, and 93 branch-subset scores.
+2026-11-26T12:51:53  Each calibrated classifier fit uses 3-fold calibration plus a full-training fit (about 4 estimator fits).
+2026-11-26T12:51:53  Autoencoder training 1/45 started: latent=64, branch=svm, fold=1/3.
+2026-11-26T12:52:47  Autoencoder training 1/45 complete after 15 epochs.
+2026-11-26T12:52:48  Classifier search progress 1/513: latent=64, branch=svm, candidate=1/12, fold=1/3.
+2026-11-26T12:52:49  Classifier search progress 2/513: latent=64, branch=svm, candidate=2/12, fold=1/3.
+2026-11-26T12:52:49  Classifier search progress 3/513: latent=64, branch=svm, candidate=3/12, fold=1/3.
+2026-11-26T12:52:49  Classifier search progress 4/513: latent=64, branch=svm, candidate=4/12, fold=1/3.
+2026-11-26T12:52:49  Classifier search progress 5/513: latent=64, branch=svm, candidate=5/12, fold=1/3.
+2026-11-26T12:52:49  Classifier search progress 6/513: latent=64, branch=svm, candidate=6/12, fold=1/3.
+2026-11-26T12:52:49  Classifier search progress 7/513: latent=64, branch=svm, candidate=7/12, fold=1/3.
+2026-11-26T12:52:49  Classifier search progress 8/513: latent=64, branch=svm, candidate=8/12, fold=1/3.
+2026-11-26T12:52:49  Classifier search progress 9/513: latent=64, branch=svm, candidate=9/12, fold=1/3.
+2026-11-26T12:52:49  Classifier search progress 10/513: latent=64, branch=svm, candidate=10/12, fold=1/3.
+2026-11-26T12:52:49  Classifier search progress 11/513: latent=64, branch=svm, candidate=11/12, fold=1/3.
+2026-11-26T12:52:49  Classifier search progress 12/513: latent=64, branch=svm, candidate=12/12, fold=1/3.
+2026-11-26T12:52:49  CV latent=64, branch=svm, fold=1/3 complete; checkpoint saved.
+2026-11-26T12:52:49  Autoencoder training 2/45 started: latent=64, branch=svm, fold=2/3.
+2026-11-26T12:53:48  Autoencoder training 2/45 complete after 17 epochs.
+2026-11-26T12:53:49  Classifier search progress 13/513: latent=64, branch=svm, candidate=1/12, fold=2/3.
+2026-11-26T12:53:49  Classifier search progress 14/513: latent=64, branch=svm, candidate=2/12, fold=2/3.
+2026-11-26T12:53:49  Classifier search progress 15/513: latent=64, branch=svm, candidate=3/12, fold=2/3.
+2026-11-26T12:53:49  Classifier search progress 16/513: latent=64, branch=svm, candidate=4/12, fold=2/3.
+2026-11-26T12:53:49  Classifier search progress 17/513: latent=64, branch=svm, candidate=5/12, fold=2/3.
+2026-11-26T12:53:49  Classifier search progress 18/513: latent=64, branch=svm, candidate=6/12, fold=2/3.
+2026-11-26T12:53:49  Classifier search progress 19/513: latent=64, branch=svm, candidate=7/12, fold=2/3.
+2026-11-26T12:53:49  Classifier search progress 20/513: latent=64, branch=svm, candidate=8/12, fold=2/3.
+2026-11-26T12:53:49  Classifier search progress 21/513: latent=64, branch=svm, candidate=9/12, fold=2/3.
+2026-11-26T12:53:49  Classifier search progress 22/513: latent=64, branch=svm, candidate=10/12, fold=2/3.
+2026-11-26T12:53:49  Classifier search progress 23/513: latent=64, branch=svm, candidate=11/12, fold=2/3.
+2026-11-26T12:53:49  Classifier search progress 24/513: latent=64, branch=svm, candidate=12/12, fold=2/3.
+2026-11-26T12:53:49  CV latent=64, branch=svm, fold=2/3 complete; checkpoint saved.
+2026-11-26T12:53:50  Autoencoder training 3/45 started: latent=64, branch=svm, fold=3/3.
+2026-11-26T12:55:58  Autoencoder training 3/45 complete after 40 epochs.
+2026-11-26T12:55:59  Classifier search progress 25/513: latent=64, branch=svm, candidate=1/12, fold=3/3.
+2026-11-26T12:55:59  Classifier search progress 26/513: latent=64, branch=svm, candidate=2/12, fold=3/3.
+2026-11-26T12:55:59  Classifier search progress 27/513: latent=64, branch=svm, candidate=3/12, fold=3/3.
+2026-11-26T12:55:59  Classifier search progress 28/513: latent=64, branch=svm, candidate=4/12, fold=3/3.
+2026-11-26T12:55:59  Classifier search progress 29/513: latent=64, branch=svm, candidate=5/12, fold=3/3.
+2026-11-26T12:55:59  Classifier search progress 30/513: latent=64, branch=svm, candidate=6/12, fold=3/3.
+2026-11-26T12:55:59  Classifier search progress 31/513: latent=64, branch=svm, candidate=7/12, fold=3/3.
+2026-11-26T12:55:59  Classifier search progress 32/513: latent=64, branch=svm, candidate=8/12, fold=3/3.
+2026-11-26T12:55:59  Classifier search progress 33/513: latent=64, branch=svm, candidate=9/12, fold=3/3.
+2026-11-26T12:55:59  Classifier search progress 34/513: latent=64, branch=svm, candidate=10/12, fold=3/3.
+2026-11-26T12:55:59  Classifier search progress 35/513: latent=64, branch=svm, candidate=11/12, fold=3/3.
+2026-11-26T12:55:59  Classifier search progress 36/513: latent=64, branch=svm, candidate=12/12, fold=3/3.
+2026-11-26T12:55:59  CV latent=64, branch=svm, fold=3/3 complete; checkpoint saved.
+2026-11-26T12:56:00  Best svm at latent size 64: macro F1=0.2689, params={'classifier__C': 0.1, 'classifier__gamma': 'scale', 'classifier__kernel': 'rbf'}
+2026-11-26T12:56:00  Autoencoder training 4/45 started: latent=64, branch=mlp, fold=1/3.
+2026-11-26T12:56:40  Autoencoder training 4/45 complete after 12 epochs.
+2026-11-26T12:56:41  Classifier search progress 37/513: latent=64, branch=mlp, candidate=1/18, fold=1/3.
+2026-11-26T12:56:41  Classifier search progress 38/513: latent=64, branch=mlp, candidate=2/18, fold=1/3.
+2026-11-26T12:56:41  Classifier search progress 39/513: latent=64, branch=mlp, candidate=3/18, fold=1/3.
+2026-11-26T12:56:41  Classifier search progress 40/513: latent=64, branch=mlp, candidate=4/18, fold=1/3.
+2026-11-26T12:56:41  Classifier search progress 41/513: latent=64, branch=mlp, candidate=5/18, fold=1/3.
+2026-11-26T12:56:41  Classifier search progress 42/513: latent=64, branch=mlp, candidate=6/18, fold=1/3.
+2026-11-26T12:56:41  Classifier search progress 43/513: latent=64, branch=mlp, candidate=7/18, fold=1/3.
+2026-11-26T12:56:41  Classifier search progress 44/513: latent=64, branch=mlp, candidate=8/18, fold=1/3.
+2026-11-26T12:56:42  Classifier search progress 45/513: latent=64, branch=mlp, candidate=9/18, fold=1/3.
+2026-11-26T12:56:42  Classifier search progress 46/513: latent=64, branch=mlp, candidate=10/18, fold=1/3.
+2026-11-26T12:56:42  Classifier search progress 47/513: latent=64, branch=mlp, candidate=11/18, fold=1/3.
+2026-11-26T12:56:42  Classifier search progress 48/513: latent=64, branch=mlp, candidate=12/18, fold=1/3.
+2026-11-26T12:56:42  Classifier search progress 49/513: latent=64, branch=mlp, candidate=13/18, fold=1/3.
+2026-11-26T12:56:42  Classifier search progress 50/513: latent=64, branch=mlp, candidate=14/18, fold=1/3.
+2026-11-26T12:56:42  Classifier search progress 51/513: latent=64, branch=mlp, candidate=15/18, fold=1/3.
+2026-11-26T12:56:42  Classifier search progress 52/513: latent=64, branch=mlp, candidate=16/18, fold=1/3.
+2026-11-26T12:56:42  Classifier search progress 53/513: latent=64, branch=mlp, candidate=17/18, fold=1/3.
+2026-11-26T12:56:43  Classifier search progress 54/513: latent=64, branch=mlp, candidate=18/18, fold=1/3.
+2026-11-26T12:56:43  CV latent=64, branch=mlp, fold=1/3 complete; checkpoint saved.
+2026-11-26T12:56:43  Autoencoder training 5/45 started: latent=64, branch=mlp, fold=2/3.
+2026-11-26T12:59:42  Autoencoder training 5/45 complete after 56 epochs.
+2026-11-26T12:59:43  Classifier search progress 55/513: latent=64, branch=mlp, candidate=1/18, fold=2/3.
+2026-11-26T12:59:43  Classifier search progress 56/513: latent=64, branch=mlp, candidate=2/18, fold=2/3.
+2026-11-26T12:59:43  Classifier search progress 57/513: latent=64, branch=mlp, candidate=3/18, fold=2/3.
+2026-11-26T12:59:43  Classifier search progress 58/513: latent=64, branch=mlp, candidate=4/18, fold=2/3.
+2026-11-26T12:59:43  Classifier search progress 59/513: latent=64, branch=mlp, candidate=5/18, fold=2/3.
+2026-11-26T12:59:44  Classifier search progress 60/513: latent=64, branch=mlp, candidate=6/18, fold=2/3.
+2026-11-26T12:59:44  Classifier search progress 61/513: latent=64, branch=mlp, candidate=7/18, fold=2/3.
+2026-11-26T12:59:44  Classifier search progress 62/513: latent=64, branch=mlp, candidate=8/18, fold=2/3.
+2026-11-26T12:59:44  Classifier search progress 63/513: latent=64, branch=mlp, candidate=9/18, fold=2/3.
+2026-11-26T12:59:44  Classifier search progress 64/513: latent=64, branch=mlp, candidate=10/18, fold=2/3.
+2026-11-26T12:59:44  Classifier search progress 65/513: latent=64, branch=mlp, candidate=11/18, fold=2/3.
+2026-11-26T12:59:44  Classifier search progress 66/513: latent=64, branch=mlp, candidate=12/18, fold=2/3.
+2026-11-26T12:59:44  Classifier search progress 67/513: latent=64, branch=mlp, candidate=13/18, fold=2/3.
+2026-11-26T12:59:44  Classifier search progress 68/513: latent=64, branch=mlp, candidate=14/18, fold=2/3.
+2026-11-26T12:59:45  Classifier search progress 69/513: latent=64, branch=mlp, candidate=15/18, fold=2/3.
+2026-11-26T12:59:45  Classifier search progress 70/513: latent=64, branch=mlp, candidate=16/18, fold=2/3.
+2026-11-26T12:59:45  Classifier search progress 71/513: latent=64, branch=mlp, candidate=17/18, fold=2/3.
+2026-11-26T12:59:45  Classifier search progress 72/513: latent=64, branch=mlp, candidate=18/18, fold=2/3.
+2026-11-26T12:59:45  CV latent=64, branch=mlp, fold=2/3 complete; checkpoint saved.
+2026-11-26T12:59:45  Autoencoder training 6/45 started: latent=64, branch=mlp, fold=3/3.
+2026-11-26T13:03:21  Autoencoder training 6/45 complete after 66 epochs.
+2026-11-26T13:03:22  Classifier search progress 73/513: latent=64, branch=mlp, candidate=1/18, fold=3/3.
+2026-11-26T13:03:22  Classifier search progress 74/513: latent=64, branch=mlp, candidate=2/18, fold=3/3.
+2026-11-26T13:03:22  Classifier search progress 75/513: latent=64, branch=mlp, candidate=3/18, fold=3/3.
+2026-11-26T13:03:22  Classifier search progress 76/513: latent=64, branch=mlp, candidate=4/18, fold=3/3.
+2026-11-26T13:03:22  Classifier search progress 77/513: latent=64, branch=mlp, candidate=5/18, fold=3/3.
+2026-11-26T13:03:22  Classifier search progress 78/513: latent=64, branch=mlp, candidate=6/18, fold=3/3.
+2026-11-26T13:03:22  Classifier search progress 79/513: latent=64, branch=mlp, candidate=7/18, fold=3/3.
+2026-11-26T13:03:22  Classifier search progress 80/513: latent=64, branch=mlp, candidate=8/18, fold=3/3.
+2026-11-26T13:03:23  Classifier search progress 81/513: latent=64, branch=mlp, candidate=9/18, fold=3/3.
+2026-11-26T13:03:23  Classifier search progress 82/513: latent=64, branch=mlp, candidate=10/18, fold=3/3.
+2026-11-26T13:03:23  Classifier search progress 83/513: latent=64, branch=mlp, candidate=11/18, fold=3/3.
+2026-11-26T13:03:23  Classifier search progress 84/513: latent=64, branch=mlp, candidate=12/18, fold=3/3.
+2026-11-26T13:03:23  Classifier search progress 85/513: latent=64, branch=mlp, candidate=13/18, fold=3/3.
+2026-11-26T13:03:23  Classifier search progress 86/513: latent=64, branch=mlp, candidate=14/18, fold=3/3.
+2026-11-26T13:03:23  Classifier search progress 87/513: latent=64, branch=mlp, candidate=15/18, fold=3/3.
+2026-11-26T13:03:23  Classifier search progress 88/513: latent=64, branch=mlp, candidate=16/18, fold=3/3.
+2026-11-26T13:03:23  Classifier search progress 89/513: latent=64, branch=mlp, candidate=17/18, fold=3/3.
+2026-11-26T13:03:24  Classifier search progress 90/513: latent=64, branch=mlp, candidate=18/18, fold=3/3.
+2026-11-26T13:03:24  CV latent=64, branch=mlp, fold=3/3 complete; checkpoint saved.
+2026-11-26T13:03:24  Best mlp at latent size 64: macro F1=0.2854, params={'classifier__alpha': 0.0001, 'classifier__hidden_layer_sizes': (128,), 'classifier__learning_rate_init': 0.001}
+2026-11-26T13:03:24  Autoencoder training 7/45 started: latent=64, branch=logistic_regression, fold=1/3.
+2026-11-26T13:04:40  Autoencoder training 7/45 complete after 23 epochs.
+2026-11-26T13:04:41  Classifier search progress 91/513: latent=64, branch=logistic_regression, candidate=1/3, fold=1/3.
+2026-11-26T13:04:41  Classifier search progress 92/513: latent=64, branch=logistic_regression, candidate=2/3, fold=1/3.
+2026-11-26T13:04:41  Classifier search progress 93/513: latent=64, branch=logistic_regression, candidate=3/3, fold=1/3.
+2026-11-26T13:04:41  CV latent=64, branch=logistic_regression, fold=1/3 complete; checkpoint saved.
+2026-11-26T13:04:41  Autoencoder training 8/45 started: latent=64, branch=logistic_regression, fold=2/3.
+2026-11-26T13:05:19  Autoencoder training 8/45 complete after 11 epochs.
+2026-11-26T13:05:20  Classifier search progress 94/513: latent=64, branch=logistic_regression, candidate=1/3, fold=2/3.
+2026-11-26T13:05:20  Classifier search progress 95/513: latent=64, branch=logistic_regression, candidate=2/3, fold=2/3.
+2026-11-26T13:05:20  Classifier search progress 96/513: latent=64, branch=logistic_regression, candidate=3/3, fold=2/3.
+2026-11-26T13:05:20  CV latent=64, branch=logistic_regression, fold=2/3 complete; checkpoint saved.
+2026-11-26T13:05:21  Autoencoder training 9/45 started: latent=64, branch=logistic_regression, fold=3/3.
+2026-11-26T13:08:31  Autoencoder training 9/45 complete after 59 epochs.
+2026-11-26T13:08:32  Classifier search progress 97/513: latent=64, branch=logistic_regression, candidate=1/3, fold=3/3.
+2026-11-26T13:08:32  Classifier search progress 98/513: latent=64, branch=logistic_regression, candidate=2/3, fold=3/3.
+2026-11-26T13:08:32  Classifier search progress 99/513: latent=64, branch=logistic_regression, candidate=3/3, fold=3/3.
+2026-11-26T13:08:32  CV latent=64, branch=logistic_regression, fold=3/3 complete; checkpoint saved.
+2026-11-26T13:08:32  Best logistic_regression at latent size 64: macro F1=0.2139, params={'classifier__C': 0.1}
+2026-11-26T13:08:32  Autoencoder training 10/45 started: latent=64, branch=random_forest, fold=1/3.
+2026-11-26T13:10:25  Autoencoder training 10/45 complete after 35 epochs.
+2026-11-26T13:10:27  Classifier search progress 100/513: latent=64, branch=random_forest, candidate=1/12, fold=1/3.
+2026-11-26T13:10:29  Classifier search progress 101/513: latent=64, branch=random_forest, candidate=2/12, fold=1/3.
+2026-11-26T13:10:30  Classifier search progress 102/513: latent=64, branch=random_forest, candidate=3/12, fold=1/3.
+2026-11-26T13:10:32  Classifier search progress 103/513: latent=64, branch=random_forest, candidate=4/12, fold=1/3.
+2026-11-26T13:10:33  Classifier search progress 104/513: latent=64, branch=random_forest, candidate=5/12, fold=1/3.
+2026-11-26T13:10:35  Classifier search progress 105/513: latent=64, branch=random_forest, candidate=6/12, fold=1/3.
+2026-11-26T13:10:36  Classifier search progress 106/513: latent=64, branch=random_forest, candidate=7/12, fold=1/3.
+2026-11-26T13:10:38  Classifier search progress 107/513: latent=64, branch=random_forest, candidate=8/12, fold=1/3.
+2026-11-26T13:10:39  Classifier search progress 108/513: latent=64, branch=random_forest, candidate=9/12, fold=1/3.
+2026-11-26T13:10:41  Classifier search progress 109/513: latent=64, branch=random_forest, candidate=10/12, fold=1/3.
+2026-11-26T13:10:41  Classifier search progress 110/513: latent=64, branch=random_forest, candidate=11/12, fold=1/3.
+2026-11-26T13:10:43  Classifier search progress 111/513: latent=64, branch=random_forest, candidate=12/12, fold=1/3.
+2026-11-26T13:10:43  CV latent=64, branch=random_forest, fold=1/3 complete; checkpoint saved.
+2026-11-26T13:10:44  Autoencoder training 11/45 started: latent=64, branch=random_forest, fold=2/3.
+2026-11-26T13:13:51  Autoencoder training 11/45 complete after 58 epochs.
+2026-11-26T13:13:53  Classifier search progress 112/513: latent=64, branch=random_forest, candidate=1/12, fold=2/3.
+2026-11-26T13:13:55  Classifier search progress 113/513: latent=64, branch=random_forest, candidate=2/12, fold=2/3.
+2026-11-26T13:13:56  Classifier search progress 114/513: latent=64, branch=random_forest, candidate=3/12, fold=2/3.
+2026-11-26T13:13:58  Classifier search progress 115/513: latent=64, branch=random_forest, candidate=4/12, fold=2/3.
+2026-11-26T13:13:59  Classifier search progress 116/513: latent=64, branch=random_forest, candidate=5/12, fold=2/3.
+2026-11-26T13:14:01  Classifier search progress 117/513: latent=64, branch=random_forest, candidate=6/12, fold=2/3.
+2026-11-26T13:14:02  Classifier search progress 118/513: latent=64, branch=random_forest, candidate=7/12, fold=2/3.
+2026-11-26T13:14:04  Classifier search progress 119/513: latent=64, branch=random_forest, candidate=8/12, fold=2/3.
+2026-11-26T13:14:04  Classifier search progress 120/513: latent=64, branch=random_forest, candidate=9/12, fold=2/3.
+2026-11-26T13:14:06  Classifier search progress 121/513: latent=64, branch=random_forest, candidate=10/12, fold=2/3.
+2026-11-26T13:14:07  Classifier search progress 122/513: latent=64, branch=random_forest, candidate=11/12, fold=2/3.
+2026-11-26T13:14:09  Classifier search progress 123/513: latent=64, branch=random_forest, candidate=12/12, fold=2/3.
+2026-11-26T13:14:09  CV latent=64, branch=random_forest, fold=2/3 complete; checkpoint saved.
+2026-11-26T13:14:10  Autoencoder training 12/45 started: latent=64, branch=random_forest, fold=3/3.
+2026-11-26T13:14:34  Autoencoder training 12/45 complete after 7 epochs.
+2026-11-26T13:14:36  Classifier search progress 124/513: latent=64, branch=random_forest, candidate=1/12, fold=3/3.
+2026-11-26T13:14:38  Classifier search progress 125/513: latent=64, branch=random_forest, candidate=2/12, fold=3/3.
+2026-11-26T13:14:39  Classifier search progress 126/513: latent=64, branch=random_forest, candidate=3/12, fold=3/3.
+2026-11-26T13:14:41  Classifier search progress 127/513: latent=64, branch=random_forest, candidate=4/12, fold=3/3.
+2026-11-26T13:14:42  Classifier search progress 128/513: latent=64, branch=random_forest, candidate=5/12, fold=3/3.
+2026-11-26T13:14:44  Classifier search progress 129/513: latent=64, branch=random_forest, candidate=6/12, fold=3/3.
+2026-11-26T13:14:45  Classifier search progress 130/513: latent=64, branch=random_forest, candidate=7/12, fold=3/3.
+2026-11-26T13:14:47  Classifier search progress 131/513: latent=64, branch=random_forest, candidate=8/12, fold=3/3.
+2026-11-26T13:14:48  Classifier search progress 132/513: latent=64, branch=random_forest, candidate=9/12, fold=3/3.
+2026-11-26T13:14:50  Classifier search progress 133/513: latent=64, branch=random_forest, candidate=10/12, fold=3/3.
+2026-11-26T13:14:51  Classifier search progress 134/513: latent=64, branch=random_forest, candidate=11/12, fold=3/3.
+2026-11-26T13:14:53  Classifier search progress 135/513: latent=64, branch=random_forest, candidate=12/12, fold=3/3.
+2026-11-26T13:14:53  CV latent=64, branch=random_forest, fold=3/3 complete; checkpoint saved.
+2026-11-26T13:14:53  Best random_forest at latent size 64: macro F1=0.3379, params={'max_depth': 10, 'min_samples_leaf': 2, 'n_estimators': 500}
+2026-11-26T13:14:53  Autoencoder training 13/45 started: latent=64, branch=knn, fold=1/3.
+2026-11-26T13:17:10  Autoencoder training 13/45 complete after 42 epochs.
+2026-11-26T13:17:13  Classifier search progress 136/513: latent=64, branch=knn, candidate=1/12, fold=1/3.
+2026-11-26T13:17:13  Classifier search progress 137/513: latent=64, branch=knn, candidate=2/12, fold=1/3.
+2026-11-26T13:17:13  Classifier search progress 138/513: latent=64, branch=knn, candidate=3/12, fold=1/3.
+2026-11-26T13:17:13  Classifier search progress 139/513: latent=64, branch=knn, candidate=4/12, fold=1/3.
+2026-11-26T13:17:13  Classifier search progress 140/513: latent=64, branch=knn, candidate=5/12, fold=1/3.
+2026-11-26T13:17:13  Classifier search progress 141/513: latent=64, branch=knn, candidate=6/12, fold=1/3.
+2026-11-26T13:17:13  Classifier search progress 142/513: latent=64, branch=knn, candidate=7/12, fold=1/3.
+2026-11-26T13:17:13  Classifier search progress 143/513: latent=64, branch=knn, candidate=8/12, fold=1/3.
+2026-11-26T13:17:13  Classifier search progress 144/513: latent=64, branch=knn, candidate=9/12, fold=1/3.
+2026-11-26T13:17:13  Classifier search progress 145/513: latent=64, branch=knn, candidate=10/12, fold=1/3.
+2026-11-26T13:17:13  Classifier search progress 146/513: latent=64, branch=knn, candidate=11/12, fold=1/3.
+2026-11-26T13:17:14  Classifier search progress 147/513: latent=64, branch=knn, candidate=12/12, fold=1/3.
+2026-11-26T13:17:14  CV latent=64, branch=knn, fold=1/3 complete; checkpoint saved.
+2026-11-26T13:17:14  Autoencoder training 14/45 started: latent=64, branch=knn, fold=2/3.
+2026-11-26T13:17:49  Autoencoder training 14/45 complete after 10 epochs.
+2026-11-26T13:17:50  Classifier search progress 148/513: latent=64, branch=knn, candidate=1/12, fold=2/3.
+2026-11-26T13:17:50  Classifier search progress 149/513: latent=64, branch=knn, candidate=2/12, fold=2/3.
+2026-11-26T13:17:50  Classifier search progress 150/513: latent=64, branch=knn, candidate=3/12, fold=2/3.
+2026-11-26T13:17:50  Classifier search progress 151/513: latent=64, branch=knn, candidate=4/12, fold=2/3.
+2026-11-26T13:17:50  Classifier search progress 152/513: latent=64, branch=knn, candidate=5/12, fold=2/3.
+2026-11-26T13:17:50  Classifier search progress 153/513: latent=64, branch=knn, candidate=6/12, fold=2/3.
+2026-11-26T13:17:50  Classifier search progress 154/513: latent=64, branch=knn, candidate=7/12, fold=2/3.
+2026-11-26T13:17:50  Classifier search progress 155/513: latent=64, branch=knn, candidate=8/12, fold=2/3.
+2026-11-26T13:17:50  Classifier search progress 156/513: latent=64, branch=knn, candidate=9/12, fold=2/3.
+2026-11-26T13:17:50  Classifier search progress 157/513: latent=64, branch=knn, candidate=10/12, fold=2/3.
+2026-11-26T13:17:50  Classifier search progress 158/513: latent=64, branch=knn, candidate=11/12, fold=2/3.
+2026-11-26T13:17:50  Classifier search progress 159/513: latent=64, branch=knn, candidate=12/12, fold=2/3.
+2026-11-26T13:17:50  CV latent=64, branch=knn, fold=2/3 complete; checkpoint saved.
+2026-11-26T13:17:51  Autoencoder training 15/45 started: latent=64, branch=knn, fold=3/3.
+2026-11-26T13:18:35  Autoencoder training 15/45 complete after 13 epochs.
+2026-11-26T13:18:36  Classifier search progress 160/513: latent=64, branch=knn, candidate=1/12, fold=3/3.
+2026-11-26T13:18:36  Classifier search progress 161/513: latent=64, branch=knn, candidate=2/12, fold=3/3.
+2026-11-26T13:18:36  Classifier search progress 162/513: latent=64, branch=knn, candidate=3/12, fold=3/3.
+2026-11-26T13:18:36  Classifier search progress 163/513: latent=64, branch=knn, candidate=4/12, fold=3/3.
+2026-11-26T13:18:36  Classifier search progress 164/513: latent=64, branch=knn, candidate=5/12, fold=3/3.
+2026-11-26T13:18:36  Classifier search progress 165/513: latent=64, branch=knn, candidate=6/12, fold=3/3.
+2026-11-26T13:18:36  Classifier search progress 166/513: latent=64, branch=knn, candidate=7/12, fold=3/3.
+2026-11-26T13:18:36  Classifier search progress 167/513: latent=64, branch=knn, candidate=8/12, fold=3/3.
+2026-11-26T13:18:36  Classifier search progress 168/513: latent=64, branch=knn, candidate=9/12, fold=3/3.
+2026-11-26T13:18:36  Classifier search progress 169/513: latent=64, branch=knn, candidate=10/12, fold=3/3.
+2026-11-26T13:18:36  Classifier search progress 170/513: latent=64, branch=knn, candidate=11/12, fold=3/3.
+2026-11-26T13:18:36  Classifier search progress 171/513: latent=64, branch=knn, candidate=12/12, fold=3/3.
+2026-11-26T13:18:36  CV latent=64, branch=knn, fold=3/3 complete; checkpoint saved.
+2026-11-26T13:18:37  Best knn at latent size 64: macro F1=0.3267, params={'classifier__n_neighbors': 5, 'classifier__p': 2, 'classifier__weights': 'distance'}
+2026-11-26T13:18:37  Best branch subset at latent size 64: branches=['svm', 'mlp', 'random_forest', 'knn'], macro F1=0.3708, accuracy=0.3725
+2026-11-26T13:18:37  Autoencoder training 16/45 started: latent=128, branch=svm, fold=1/3.
+2026-11-26T13:19:22  Autoencoder training 16/45 complete after 13 epochs.
+2026-11-26T13:19:23  Classifier search progress 172/513: latent=128, branch=svm, candidate=1/12, fold=1/3.
+2026-11-26T13:19:23  Classifier search progress 173/513: latent=128, branch=svm, candidate=2/12, fold=1/3.
+2026-11-26T13:19:23  Classifier search progress 174/513: latent=128, branch=svm, candidate=3/12, fold=1/3.
+2026-11-26T13:19:23  Classifier search progress 175/513: latent=128, branch=svm, candidate=4/12, fold=1/3.
+2026-11-26T13:19:23  Classifier search progress 176/513: latent=128, branch=svm, candidate=5/12, fold=1/3.
+2026-11-26T13:19:23  Classifier search progress 177/513: latent=128, branch=svm, candidate=6/12, fold=1/3.
+2026-11-26T13:19:23  Classifier search progress 178/513: latent=128, branch=svm, candidate=7/12, fold=1/3.
+2026-11-26T13:19:23  Classifier search progress 179/513: latent=128, branch=svm, candidate=8/12, fold=1/3.
+2026-11-26T13:19:23  Classifier search progress 180/513: latent=128, branch=svm, candidate=9/12, fold=1/3.
+2026-11-26T13:19:23  Classifier search progress 181/513: latent=128, branch=svm, candidate=10/12, fold=1/3.
+2026-11-26T13:19:23  Classifier search progress 182/513: latent=128, branch=svm, candidate=11/12, fold=1/3.
+2026-11-26T13:19:23  Classifier search progress 183/513: latent=128, branch=svm, candidate=12/12, fold=1/3.
+2026-11-26T13:19:23  CV latent=128, branch=svm, fold=1/3 complete; checkpoint saved.
+2026-11-26T13:19:24  Autoencoder training 17/45 started: latent=128, branch=svm, fold=2/3.
+2026-11-26T13:22:38  Autoencoder training 17/45 complete after 60 epochs.
+2026-11-26T13:22:40  Classifier search progress 184/513: latent=128, branch=svm, candidate=1/12, fold=2/3.
+2026-11-26T13:22:40  Classifier search progress 185/513: latent=128, branch=svm, candidate=2/12, fold=2/3.
+2026-11-26T13:22:40  Classifier search progress 186/513: latent=128, branch=svm, candidate=3/12, fold=2/3.
+2026-11-26T13:22:40  Classifier search progress 187/513: latent=128, branch=svm, candidate=4/12, fold=2/3.
+2026-11-26T13:22:40  Classifier search progress 188/513: latent=128, branch=svm, candidate=5/12, fold=2/3.
+2026-11-26T13:22:40  Classifier search progress 189/513: latent=128, branch=svm, candidate=6/12, fold=2/3.
+2026-11-26T13:22:40  Classifier search progress 190/513: latent=128, branch=svm, candidate=7/12, fold=2/3.
+2026-11-26T13:22:40  Classifier search progress 191/513: latent=128, branch=svm, candidate=8/12, fold=2/3.
+2026-11-26T13:22:40  Classifier search progress 192/513: latent=128, branch=svm, candidate=9/12, fold=2/3.
+2026-11-26T13:22:40  Classifier search progress 193/513: latent=128, branch=svm, candidate=10/12, fold=2/3.
+2026-11-26T13:22:40  Classifier search progress 194/513: latent=128, branch=svm, candidate=11/12, fold=2/3.
+2026-11-26T13:22:40  Classifier search progress 195/513: latent=128, branch=svm, candidate=12/12, fold=2/3.
+2026-11-26T13:22:40  CV latent=128, branch=svm, fold=2/3 complete; checkpoint saved.
+2026-11-26T13:22:41  Autoencoder training 18/45 started: latent=128, branch=svm, fold=3/3.
+2026-11-26T13:24:42  Autoencoder training 18/45 complete after 37 epochs.
+2026-11-26T13:24:43  Classifier search progress 196/513: latent=128, branch=svm, candidate=1/12, fold=3/3.
+2026-11-26T13:24:43  Classifier search progress 197/513: latent=128, branch=svm, candidate=2/12, fold=3/3.
+2026-11-26T13:24:43  Classifier search progress 198/513: latent=128, branch=svm, candidate=3/12, fold=3/3.
+2026-11-26T13:24:43  Classifier search progress 199/513: latent=128, branch=svm, candidate=4/12, fold=3/3.
+2026-11-26T13:24:43  Classifier search progress 200/513: latent=128, branch=svm, candidate=5/12, fold=3/3.
+2026-11-26T13:24:43  Classifier search progress 201/513: latent=128, branch=svm, candidate=6/12, fold=3/3.
+2026-11-26T13:24:43  Classifier search progress 202/513: latent=128, branch=svm, candidate=7/12, fold=3/3.
+2026-11-26T13:24:43  Classifier search progress 203/513: latent=128, branch=svm, candidate=8/12, fold=3/3.
+2026-11-26T13:24:43  Classifier search progress 204/513: latent=128, branch=svm, candidate=9/12, fold=3/3.
+2026-11-26T13:24:43  Classifier search progress 205/513: latent=128, branch=svm, candidate=10/12, fold=3/3.
+2026-11-26T13:24:43  Classifier search progress 206/513: latent=128, branch=svm, candidate=11/12, fold=3/3.
+2026-11-26T13:24:43  Classifier search progress 207/513: latent=128, branch=svm, candidate=12/12, fold=3/3.
+2026-11-26T13:24:43  CV latent=128, branch=svm, fold=3/3 complete; checkpoint saved.
+2026-11-26T13:24:44  Best svm at latent size 128: macro F1=0.3515, params={'classifier__C': 1, 'classifier__kernel': 'linear'}
+2026-11-26T13:24:44  Autoencoder training 19/45 started: latent=128, branch=mlp, fold=1/3.
+2026-11-26T13:27:26  Autoencoder training 19/45 complete after 50 epochs.
+2026-11-26T13:27:28  Classifier search progress 208/513: latent=128, branch=mlp, candidate=1/18, fold=1/3.
+2026-11-26T13:27:28  Classifier search progress 209/513: latent=128, branch=mlp, candidate=2/18, fold=1/3.
+2026-11-26T13:27:28  Classifier search progress 210/513: latent=128, branch=mlp, candidate=3/18, fold=1/3.
+2026-11-26T13:27:28  Classifier search progress 211/513: latent=128, branch=mlp, candidate=4/18, fold=1/3.
+2026-11-26T13:27:28  Classifier search progress 212/513: latent=128, branch=mlp, candidate=5/18, fold=1/3.
+2026-11-26T13:27:28  Classifier search progress 213/513: latent=128, branch=mlp, candidate=6/18, fold=1/3.
+2026-11-26T13:27:28  Classifier search progress 214/513: latent=128, branch=mlp, candidate=7/18, fold=1/3.
+2026-11-26T13:27:28  Classifier search progress 215/513: latent=128, branch=mlp, candidate=8/18, fold=1/3.
+2026-11-26T13:27:28  Classifier search progress 216/513: latent=128, branch=mlp, candidate=9/18, fold=1/3.
+2026-11-26T13:27:29  Classifier search progress 217/513: latent=128, branch=mlp, candidate=10/18, fold=1/3.
+2026-11-26T13:27:29  Classifier search progress 218/513: latent=128, branch=mlp, candidate=11/18, fold=1/3.
+2026-11-26T13:27:29  Classifier search progress 219/513: latent=128, branch=mlp, candidate=12/18, fold=1/3.
+2026-11-26T13:27:29  Classifier search progress 220/513: latent=128, branch=mlp, candidate=13/18, fold=1/3.
+2026-11-26T13:27:29  Classifier search progress 221/513: latent=128, branch=mlp, candidate=14/18, fold=1/3.
+2026-11-26T13:27:29  Classifier search progress 222/513: latent=128, branch=mlp, candidate=15/18, fold=1/3.
+2026-11-26T13:27:29  Classifier search progress 223/513: latent=128, branch=mlp, candidate=16/18, fold=1/3.
+2026-11-26T13:27:29  Classifier search progress 224/513: latent=128, branch=mlp, candidate=17/18, fold=1/3.
+2026-11-26T13:27:29  Classifier search progress 225/513: latent=128, branch=mlp, candidate=18/18, fold=1/3.
+2026-11-26T13:27:29  CV latent=128, branch=mlp, fold=1/3 complete; checkpoint saved.
+2026-11-26T13:27:30  Autoencoder training 20/45 started: latent=128, branch=mlp, fold=2/3.
+2026-11-26T13:30:38  Autoencoder training 20/45 complete after 58 epochs.
+2026-11-26T13:30:40  Classifier search progress 226/513: latent=128, branch=mlp, candidate=1/18, fold=2/3.
+2026-11-26T13:30:40  Classifier search progress 227/513: latent=128, branch=mlp, candidate=2/18, fold=2/3.
+2026-11-26T13:30:40  Classifier search progress 228/513: latent=128, branch=mlp, candidate=3/18, fold=2/3.
+2026-11-26T13:30:40  Classifier search progress 229/513: latent=128, branch=mlp, candidate=4/18, fold=2/3.
+2026-11-26T13:30:40  Classifier search progress 230/513: latent=128, branch=mlp, candidate=5/18, fold=2/3.
+2026-11-26T13:30:40  Classifier search progress 231/513: latent=128, branch=mlp, candidate=6/18, fold=2/3.
+2026-11-26T13:30:40  Classifier search progress 232/513: latent=128, branch=mlp, candidate=7/18, fold=2/3.
+2026-11-26T13:30:40  Classifier search progress 233/513: latent=128, branch=mlp, candidate=8/18, fold=2/3.
+2026-11-26T13:30:40  Classifier search progress 234/513: latent=128, branch=mlp, candidate=9/18, fold=2/3.
+2026-11-26T13:30:40  Classifier search progress 235/513: latent=128, branch=mlp, candidate=10/18, fold=2/3.
+2026-11-26T13:30:41  Classifier search progress 236/513: latent=128, branch=mlp, candidate=11/18, fold=2/3.
+2026-11-26T13:30:41  Classifier search progress 237/513: latent=128, branch=mlp, candidate=12/18, fold=2/3.
+2026-11-26T13:30:41  Classifier search progress 238/513: latent=128, branch=mlp, candidate=13/18, fold=2/3.
+2026-11-26T13:30:41  Classifier search progress 239/513: latent=128, branch=mlp, candidate=14/18, fold=2/3.
+2026-11-26T13:30:41  Classifier search progress 240/513: latent=128, branch=mlp, candidate=15/18, fold=2/3.
+2026-11-26T13:30:41  Classifier search progress 241/513: latent=128, branch=mlp, candidate=16/18, fold=2/3.
+2026-11-26T13:30:41  Classifier search progress 242/513: latent=128, branch=mlp, candidate=17/18, fold=2/3.
+2026-11-26T13:30:41  Classifier search progress 243/513: latent=128, branch=mlp, candidate=18/18, fold=2/3.
+2026-11-26T13:30:41  CV latent=128, branch=mlp, fold=2/3 complete; checkpoint saved.
+2026-11-26T13:30:42  Autoencoder training 21/45 started: latent=128, branch=mlp, fold=3/3.
+2026-11-26T13:34:14  Autoencoder training 21/45 complete after 65 epochs.
+2026-11-26T13:34:15  Classifier search progress 244/513: latent=128, branch=mlp, candidate=1/18, fold=3/3.
+2026-11-26T13:34:15  Classifier search progress 245/513: latent=128, branch=mlp, candidate=2/18, fold=3/3.
+2026-11-26T13:34:15  Classifier search progress 246/513: latent=128, branch=mlp, candidate=3/18, fold=3/3.
+2026-11-26T13:34:15  Classifier search progress 247/513: latent=128, branch=mlp, candidate=4/18, fold=3/3.
+2026-11-26T13:34:16  Classifier search progress 248/513: latent=128, branch=mlp, candidate=5/18, fold=3/3.
+2026-11-26T13:34:16  Classifier search progress 249/513: latent=128, branch=mlp, candidate=6/18, fold=3/3.
+2026-11-26T13:34:16  Classifier search progress 250/513: latent=128, branch=mlp, candidate=7/18, fold=3/3.
+2026-11-26T13:34:16  Classifier search progress 251/513: latent=128, branch=mlp, candidate=8/18, fold=3/3.
+2026-11-26T13:34:16  Classifier search progress 252/513: latent=128, branch=mlp, candidate=9/18, fold=3/3.
+2026-11-26T13:34:16  Classifier search progress 253/513: latent=128, branch=mlp, candidate=10/18, fold=3/3.
+2026-11-26T13:34:16  Classifier search progress 254/513: latent=128, branch=mlp, candidate=11/18, fold=3/3.
+2026-11-26T13:34:16  Classifier search progress 255/513: latent=128, branch=mlp, candidate=12/18, fold=3/3.
+2026-11-26T13:34:17  Classifier search progress 256/513: latent=128, branch=mlp, candidate=13/18, fold=3/3.
+2026-11-26T13:34:17  Classifier search progress 257/513: latent=128, branch=mlp, candidate=14/18, fold=3/3.
+2026-11-26T13:34:17  Classifier search progress 258/513: latent=128, branch=mlp, candidate=15/18, fold=3/3.
+2026-11-26T13:34:17  Classifier search progress 259/513: latent=128, branch=mlp, candidate=16/18, fold=3/3.
+2026-11-26T13:34:17  Classifier search progress 260/513: latent=128, branch=mlp, candidate=17/18, fold=3/3.
+2026-11-26T13:34:17  Classifier search progress 261/513: latent=128, branch=mlp, candidate=18/18, fold=3/3.
+2026-11-26T13:34:17  CV latent=128, branch=mlp, fold=3/3 complete; checkpoint saved.
+2026-11-26T13:34:18  Best mlp at latent size 128: macro F1=0.2709, params={'classifier__alpha': 0.0001, 'classifier__hidden_layer_sizes': (128,), 'classifier__learning_rate_init': 0.001}
+2026-11-26T13:34:18  Autoencoder training 22/45 started: latent=128, branch=logistic_regression, fold=1/3.
+2026-11-26T13:36:57  Autoencoder training 22/45 complete after 49 epochs.
+2026-11-26T13:36:58  Classifier search progress 262/513: latent=128, branch=logistic_regression, candidate=1/3, fold=1/3.
+2026-11-26T13:36:58  Classifier search progress 263/513: latent=128, branch=logistic_regression, candidate=2/3, fold=1/3.
+2026-11-26T13:36:58  Classifier search progress 264/513: latent=128, branch=logistic_regression, candidate=3/3, fold=1/3.
+2026-11-26T13:36:58  CV latent=128, branch=logistic_regression, fold=1/3 complete; checkpoint saved.
+2026-11-26T13:36:59  Autoencoder training 23/45 started: latent=128, branch=logistic_regression, fold=2/3.
+2026-11-26T13:38:41  Autoencoder training 23/45 complete after 31 epochs.
+2026-11-26T13:38:42  Classifier search progress 265/513: latent=128, branch=logistic_regression, candidate=1/3, fold=2/3.
+2026-11-26T13:38:42  Classifier search progress 266/513: latent=128, branch=logistic_regression, candidate=2/3, fold=2/3.
+2026-11-26T13:38:42  Classifier search progress 267/513: latent=128, branch=logistic_regression, candidate=3/3, fold=2/3.
+2026-11-26T13:38:42  CV latent=128, branch=logistic_regression, fold=2/3 complete; checkpoint saved.
+2026-11-26T13:38:42  Autoencoder training 24/45 started: latent=128, branch=logistic_regression, fold=3/3.
+2026-11-26T13:40:08  Autoencoder training 24/45 complete after 26 epochs.
+2026-11-26T13:40:10  Classifier search progress 268/513: latent=128, branch=logistic_regression, candidate=1/3, fold=3/3.
+2026-11-26T13:40:10  Classifier search progress 269/513: latent=128, branch=logistic_regression, candidate=2/3, fold=3/3.
+2026-11-26T13:40:10  Classifier search progress 270/513: latent=128, branch=logistic_regression, candidate=3/3, fold=3/3.
+2026-11-26T13:40:10  CV latent=128, branch=logistic_regression, fold=3/3 complete; checkpoint saved.
+2026-11-26T13:40:10  Best logistic_regression at latent size 128: macro F1=0.3524, params={'classifier__C': 1}
+2026-11-26T13:40:10  Autoencoder training 25/45 started: latent=128, branch=random_forest, fold=1/3.
+2026-11-26T13:40:45  Autoencoder training 25/45 complete after 10 epochs.
+2026-11-26T13:40:47  Classifier search progress 271/513: latent=128, branch=random_forest, candidate=1/12, fold=1/3.
+2026-11-26T13:40:49  Classifier search progress 272/513: latent=128, branch=random_forest, candidate=2/12, fold=1/3.
+2026-11-26T13:40:50  Classifier search progress 273/513: latent=128, branch=random_forest, candidate=3/12, fold=1/3.
+2026-11-26T13:40:52  Classifier search progress 274/513: latent=128, branch=random_forest, candidate=4/12, fold=1/3.
+2026-11-26T13:40:52  Classifier search progress 275/513: latent=128, branch=random_forest, candidate=5/12, fold=1/3.
+2026-11-26T13:40:54  Classifier search progress 276/513: latent=128, branch=random_forest, candidate=6/12, fold=1/3.
+2026-11-26T13:40:55  Classifier search progress 277/513: latent=128, branch=random_forest, candidate=7/12, fold=1/3.
+2026-11-26T13:40:57  Classifier search progress 278/513: latent=128, branch=random_forest, candidate=8/12, fold=1/3.
+2026-11-26T13:40:58  Classifier search progress 279/513: latent=128, branch=random_forest, candidate=9/12, fold=1/3.
+2026-11-26T13:41:00  Classifier search progress 280/513: latent=128, branch=random_forest, candidate=10/12, fold=1/3.
+2026-11-26T13:41:01  Classifier search progress 281/513: latent=128, branch=random_forest, candidate=11/12, fold=1/3.
+2026-11-26T13:41:03  Classifier search progress 282/513: latent=128, branch=random_forest, candidate=12/12, fold=1/3.
+2026-11-26T13:41:03  CV latent=128, branch=random_forest, fold=1/3 complete; checkpoint saved.
+2026-11-26T13:41:03  Autoencoder training 26/45 started: latent=128, branch=random_forest, fold=2/3.
+2026-11-26T13:41:32  Autoencoder training 26/45 complete after 8 epochs.
+2026-11-26T13:41:34  Classifier search progress 283/513: latent=128, branch=random_forest, candidate=1/12, fold=2/3.
+2026-11-26T13:41:36  Classifier search progress 284/513: latent=128, branch=random_forest, candidate=2/12, fold=2/3.
+2026-11-26T13:41:36  Classifier search progress 285/513: latent=128, branch=random_forest, candidate=3/12, fold=2/3.
+2026-11-26T13:41:38  Classifier search progress 286/513: latent=128, branch=random_forest, candidate=4/12, fold=2/3.
+2026-11-26T13:41:39  Classifier search progress 287/513: latent=128, branch=random_forest, candidate=5/12, fold=2/3.
+2026-11-26T13:41:41  Classifier search progress 288/513: latent=128, branch=random_forest, candidate=6/12, fold=2/3.
+2026-11-26T13:41:42  Classifier search progress 289/513: latent=128, branch=random_forest, candidate=7/12, fold=2/3.
+2026-11-26T13:41:44  Classifier search progress 290/513: latent=128, branch=random_forest, candidate=8/12, fold=2/3.
+2026-11-26T13:41:45  Classifier search progress 291/513: latent=128, branch=random_forest, candidate=9/12, fold=2/3.
+2026-11-26T13:41:47  Classifier search progress 292/513: latent=128, branch=random_forest, candidate=10/12, fold=2/3.
+2026-11-26T13:41:48  Classifier search progress 293/513: latent=128, branch=random_forest, candidate=11/12, fold=2/3.
+2026-11-26T13:41:50  Classifier search progress 294/513: latent=128, branch=random_forest, candidate=12/12, fold=2/3.
+2026-11-26T13:41:50  CV latent=128, branch=random_forest, fold=2/3 complete; checkpoint saved.
+2026-11-26T13:41:50  Autoencoder training 27/45 started: latent=128, branch=random_forest, fold=3/3.
+2026-11-26T13:44:47  Autoencoder training 27/45 complete after 54 epochs.
+2026-11-26T13:44:49  Classifier search progress 295/513: latent=128, branch=random_forest, candidate=1/12, fold=3/3.
+2026-11-26T13:44:51  Classifier search progress 296/513: latent=128, branch=random_forest, candidate=2/12, fold=3/3.
+2026-11-26T13:44:52  Classifier search progress 297/513: latent=128, branch=random_forest, candidate=3/12, fold=3/3.
+2026-11-26T13:44:54  Classifier search progress 298/513: latent=128, branch=random_forest, candidate=4/12, fold=3/3.
+2026-11-26T13:44:55  Classifier search progress 299/513: latent=128, branch=random_forest, candidate=5/12, fold=3/3.
+2026-11-26T13:44:57  Classifier search progress 300/513: latent=128, branch=random_forest, candidate=6/12, fold=3/3.
+2026-11-26T13:44:58  Classifier search progress 301/513: latent=128, branch=random_forest, candidate=7/12, fold=3/3.
+2026-11-26T13:45:00  Classifier search progress 302/513: latent=128, branch=random_forest, candidate=8/12, fold=3/3.
+2026-11-26T13:45:00  Classifier search progress 303/513: latent=128, branch=random_forest, candidate=9/12, fold=3/3.
+2026-11-26T13:45:02  Classifier search progress 304/513: latent=128, branch=random_forest, candidate=10/12, fold=3/3.
+2026-11-26T13:45:03  Classifier search progress 305/513: latent=128, branch=random_forest, candidate=11/12, fold=3/3.
+2026-11-26T13:45:05  Classifier search progress 306/513: latent=128, branch=random_forest, candidate=12/12, fold=3/3.
+2026-11-26T13:45:05  CV latent=128, branch=random_forest, fold=3/3 complete; checkpoint saved.
+2026-11-26T13:45:06  Best random_forest at latent size 128: macro F1=0.3554, params={'max_depth': None, 'min_samples_leaf': 2, 'n_estimators': 500}
+2026-11-26T13:45:06  Autoencoder training 28/45 started: latent=128, branch=knn, fold=1/3.
+2026-11-26T13:48:17  Autoencoder training 28/45 complete after 59 epochs.
+2026-11-26T13:48:18  Classifier search progress 307/513: latent=128, branch=knn, candidate=1/12, fold=1/3.
+2026-11-26T13:48:18  Classifier search progress 308/513: latent=128, branch=knn, candidate=2/12, fold=1/3.
+2026-11-26T13:48:19  Classifier search progress 309/513: latent=128, branch=knn, candidate=3/12, fold=1/3.
+2026-11-26T13:48:19  Classifier search progress 310/513: latent=128, branch=knn, candidate=4/12, fold=1/3.
+2026-11-26T13:48:19  Classifier search progress 311/513: latent=128, branch=knn, candidate=5/12, fold=1/3.
+2026-11-26T13:48:19  Classifier search progress 312/513: latent=128, branch=knn, candidate=6/12, fold=1/3.
+2026-11-26T13:48:19  Classifier search progress 313/513: latent=128, branch=knn, candidate=7/12, fold=1/3.
+2026-11-26T13:48:19  Classifier search progress 314/513: latent=128, branch=knn, candidate=8/12, fold=1/3.
+2026-11-26T13:48:19  Classifier search progress 315/513: latent=128, branch=knn, candidate=9/12, fold=1/3.
+2026-11-26T13:48:19  Classifier search progress 316/513: latent=128, branch=knn, candidate=10/12, fold=1/3.
+2026-11-26T13:48:19  Classifier search progress 317/513: latent=128, branch=knn, candidate=11/12, fold=1/3.
+2026-11-26T13:48:19  Classifier search progress 318/513: latent=128, branch=knn, candidate=12/12, fold=1/3.
+2026-11-26T13:48:19  CV latent=128, branch=knn, fold=1/3 complete; checkpoint saved.
+2026-11-26T13:48:19  Autoencoder training 29/45 started: latent=128, branch=knn, fold=2/3.
+2026-11-26T13:48:41  Autoencoder training 29/45 complete after 6 epochs.
+2026-11-26T13:48:42  Classifier search progress 319/513: latent=128, branch=knn, candidate=1/12, fold=2/3.
+2026-11-26T13:48:42  Classifier search progress 320/513: latent=128, branch=knn, candidate=2/12, fold=2/3.
+2026-11-26T13:48:42  Classifier search progress 321/513: latent=128, branch=knn, candidate=3/12, fold=2/3.
+2026-11-26T13:48:42  Classifier search progress 322/513: latent=128, branch=knn, candidate=4/12, fold=2/3.
+2026-11-26T13:48:42  Classifier search progress 323/513: latent=128, branch=knn, candidate=5/12, fold=2/3.
+2026-11-26T13:48:42  Classifier search progress 324/513: latent=128, branch=knn, candidate=6/12, fold=2/3.
+2026-11-26T13:48:42  Classifier search progress 325/513: latent=128, branch=knn, candidate=7/12, fold=2/3.
+2026-11-26T13:48:43  Classifier search progress 326/513: latent=128, branch=knn, candidate=8/12, fold=2/3.
+2026-11-26T13:48:43  Classifier search progress 327/513: latent=128, branch=knn, candidate=9/12, fold=2/3.
+2026-11-26T13:48:43  Classifier search progress 328/513: latent=128, branch=knn, candidate=10/12, fold=2/3.
+2026-11-26T13:48:43  Classifier search progress 329/513: latent=128, branch=knn, candidate=11/12, fold=2/3.
+2026-11-26T13:48:43  Classifier search progress 330/513: latent=128, branch=knn, candidate=12/12, fold=2/3.
+2026-11-26T13:48:43  CV latent=128, branch=knn, fold=2/3 complete; checkpoint saved.
+2026-11-26T13:48:43  Autoencoder training 30/45 started: latent=128, branch=knn, fold=3/3.
+2026-11-26T13:49:11  Autoencoder training 30/45 complete after 8 epochs.
+2026-11-26T13:49:12  Classifier search progress 331/513: latent=128, branch=knn, candidate=1/12, fold=3/3.
+2026-11-26T13:49:12  Classifier search progress 332/513: latent=128, branch=knn, candidate=2/12, fold=3/3.
+2026-11-26T13:49:12  Classifier search progress 333/513: latent=128, branch=knn, candidate=3/12, fold=3/3.
+2026-11-26T13:49:12  Classifier search progress 334/513: latent=128, branch=knn, candidate=4/12, fold=3/3.
+2026-11-26T13:49:12  Classifier search progress 335/513: latent=128, branch=knn, candidate=5/12, fold=3/3.
+2026-11-26T13:49:13  Classifier search progress 336/513: latent=128, branch=knn, candidate=6/12, fold=3/3.
+2026-11-26T13:49:13  Classifier search progress 337/513: latent=128, branch=knn, candidate=7/12, fold=3/3.
+2026-11-26T13:49:13  Classifier search progress 338/513: latent=128, branch=knn, candidate=8/12, fold=3/3.
+2026-11-26T13:49:13  Classifier search progress 339/513: latent=128, branch=knn, candidate=9/12, fold=3/3.
+2026-11-26T13:49:13  Classifier search progress 340/513: latent=128, branch=knn, candidate=10/12, fold=3/3.
+2026-11-26T13:49:13  Classifier search progress 341/513: latent=128, branch=knn, candidate=11/12, fold=3/3.
+2026-11-26T13:49:13  Classifier search progress 342/513: latent=128, branch=knn, candidate=12/12, fold=3/3.
+2026-11-26T13:49:13  CV latent=128, branch=knn, fold=3/3 complete; checkpoint saved.
+2026-11-26T13:49:13  Best knn at latent size 128: macro F1=0.2726, params={'classifier__n_neighbors': 3, 'classifier__p': 2, 'classifier__weights': 'distance'}
+2026-11-26T13:49:13  Best branch subset at latent size 128: branches=['svm', 'logistic_regression', 'random_forest'], macro F1=0.3779, accuracy=0.3825
+2026-11-26T13:49:13  Autoencoder training 31/45 started: latent=256, branch=svm, fold=1/3.
+2026-11-26T13:53:40  Autoencoder training 31/45 complete after 80 epochs.
+2026-11-26T13:53:41  Classifier search progress 343/513: latent=256, branch=svm, candidate=1/12, fold=1/3.
+2026-11-26T13:53:41  Classifier search progress 344/513: latent=256, branch=svm, candidate=2/12, fold=1/3.
+2026-11-26T13:53:41  Classifier search progress 345/513: latent=256, branch=svm, candidate=3/12, fold=1/3.
+2026-11-26T13:53:41  Classifier search progress 346/513: latent=256, branch=svm, candidate=4/12, fold=1/3.
+2026-11-26T13:53:41  Classifier search progress 347/513: latent=256, branch=svm, candidate=5/12, fold=1/3.
+2026-11-26T13:53:41  Classifier search progress 348/513: latent=256, branch=svm, candidate=6/12, fold=1/3.
+2026-11-26T13:53:41  Classifier search progress 349/513: latent=256, branch=svm, candidate=7/12, fold=1/3.
+2026-11-26T13:53:41  Classifier search progress 350/513: latent=256, branch=svm, candidate=8/12, fold=1/3.
+2026-11-26T13:53:41  Classifier search progress 351/513: latent=256, branch=svm, candidate=9/12, fold=1/3.
+2026-11-26T13:53:41  Classifier search progress 352/513: latent=256, branch=svm, candidate=10/12, fold=1/3.
+2026-11-26T13:53:41  Classifier search progress 353/513: latent=256, branch=svm, candidate=11/12, fold=1/3.
+2026-11-26T13:53:41  Classifier search progress 354/513: latent=256, branch=svm, candidate=12/12, fold=1/3.
+2026-11-26T13:53:41  CV latent=256, branch=svm, fold=1/3 complete; checkpoint saved.
+2026-11-26T13:53:42  Autoencoder training 32/45 started: latent=256, branch=svm, fold=2/3.
+2026-11-26T13:56:53  Autoencoder training 32/45 complete after 57 epochs.
+2026-11-26T13:56:54  Classifier search progress 355/513: latent=256, branch=svm, candidate=1/12, fold=2/3.
+2026-11-26T13:56:54  Classifier search progress 356/513: latent=256, branch=svm, candidate=2/12, fold=2/3.
+2026-11-26T13:56:54  Classifier search progress 357/513: latent=256, branch=svm, candidate=3/12, fold=2/3.
+2026-11-26T13:56:55  Classifier search progress 358/513: latent=256, branch=svm, candidate=4/12, fold=2/3.
+2026-11-26T13:56:55  Classifier search progress 359/513: latent=256, branch=svm, candidate=5/12, fold=2/3.
+2026-11-26T13:56:55  Classifier search progress 360/513: latent=256, branch=svm, candidate=6/12, fold=2/3.
+2026-11-26T13:56:55  Classifier search progress 361/513: latent=256, branch=svm, candidate=7/12, fold=2/3.
+2026-11-26T13:56:55  Classifier search progress 362/513: latent=256, branch=svm, candidate=8/12, fold=2/3.
+2026-11-26T13:56:55  Classifier search progress 363/513: latent=256, branch=svm, candidate=9/12, fold=2/3.
+2026-11-26T13:56:55  Classifier search progress 364/513: latent=256, branch=svm, candidate=10/12, fold=2/3.
+2026-11-26T13:56:55  Classifier search progress 365/513: latent=256, branch=svm, candidate=11/12, fold=2/3.
+2026-11-26T13:56:55  Classifier search progress 366/513: latent=256, branch=svm, candidate=12/12, fold=2/3.
+2026-11-26T13:56:55  CV latent=256, branch=svm, fold=2/3 complete; checkpoint saved.
+2026-11-26T13:56:55  Autoencoder training 33/45 started: latent=256, branch=svm, fold=3/3.
+2026-11-26T13:59:28  Autoencoder training 33/45 complete after 45 epochs.
+2026-11-26T13:59:29  Classifier search progress 367/513: latent=256, branch=svm, candidate=1/12, fold=3/3.
+2026-11-26T13:59:29  Classifier search progress 368/513: latent=256, branch=svm, candidate=2/12, fold=3/3.
+2026-11-26T13:59:29  Classifier search progress 369/513: latent=256, branch=svm, candidate=3/12, fold=3/3.
+2026-11-26T13:59:29  Classifier search progress 370/513: latent=256, branch=svm, candidate=4/12, fold=3/3.
+2026-11-26T13:59:29  Classifier search progress 371/513: latent=256, branch=svm, candidate=5/12, fold=3/3.
+2026-11-26T13:59:29  Classifier search progress 372/513: latent=256, branch=svm, candidate=6/12, fold=3/3.
+2026-11-26T13:59:29  Classifier search progress 373/513: latent=256, branch=svm, candidate=7/12, fold=3/3.
+2026-11-26T13:59:29  Classifier search progress 374/513: latent=256, branch=svm, candidate=8/12, fold=3/3.
+2026-11-26T13:59:29  Classifier search progress 375/513: latent=256, branch=svm, candidate=9/12, fold=3/3.
+2026-11-26T13:59:29  Classifier search progress 376/513: latent=256, branch=svm, candidate=10/12, fold=3/3.
+2026-11-26T13:59:29  Classifier search progress 377/513: latent=256, branch=svm, candidate=11/12, fold=3/3.
+2026-11-26T13:59:29  Classifier search progress 378/513: latent=256, branch=svm, candidate=12/12, fold=3/3.
+2026-11-26T13:59:29  CV latent=256, branch=svm, fold=3/3 complete; checkpoint saved.
+2026-11-26T13:59:30  Best svm at latent size 256: macro F1=0.3954, params={'classifier__C': 10, 'classifier__gamma': 'scale', 'classifier__kernel': 'rbf'}
+2026-11-26T13:59:30  Autoencoder training 34/45 started: latent=256, branch=mlp, fold=1/3.
+2026-11-26T14:03:54  Autoencoder training 34/45 complete after 79 epochs.
+2026-11-26T14:03:55  Classifier search progress 379/513: latent=256, branch=mlp, candidate=1/18, fold=1/3.
+2026-11-26T14:03:55  Classifier search progress 380/513: latent=256, branch=mlp, candidate=2/18, fold=1/3.
+2026-11-26T14:03:55  Classifier search progress 381/513: latent=256, branch=mlp, candidate=3/18, fold=1/3.
+2026-11-26T14:03:56  Classifier search progress 382/513: latent=256, branch=mlp, candidate=4/18, fold=1/3.
+2026-11-26T14:03:56  Classifier search progress 383/513: latent=256, branch=mlp, candidate=5/18, fold=1/3.
+2026-11-26T14:03:56  Classifier search progress 384/513: latent=256, branch=mlp, candidate=6/18, fold=1/3.
+2026-11-26T14:03:56  Classifier search progress 385/513: latent=256, branch=mlp, candidate=7/18, fold=1/3.
+2026-11-26T14:03:56  Classifier search progress 386/513: latent=256, branch=mlp, candidate=8/18, fold=1/3.
+2026-11-26T14:03:56  Classifier search progress 387/513: latent=256, branch=mlp, candidate=9/18, fold=1/3.
+2026-11-26T14:03:56  Classifier search progress 388/513: latent=256, branch=mlp, candidate=10/18, fold=1/3.
+2026-11-26T14:03:56  Classifier search progress 389/513: latent=256, branch=mlp, candidate=11/18, fold=1/3.
+2026-11-26T14:03:57  Classifier search progress 390/513: latent=256, branch=mlp, candidate=12/18, fold=1/3.
+2026-11-26T14:03:57  Classifier search progress 391/513: latent=256, branch=mlp, candidate=13/18, fold=1/3.
+2026-11-26T14:03:57  Classifier search progress 392/513: latent=256, branch=mlp, candidate=14/18, fold=1/3.
+2026-11-26T14:03:57  Classifier search progress 393/513: latent=256, branch=mlp, candidate=15/18, fold=1/3.
+2026-11-26T14:03:57  Classifier search progress 394/513: latent=256, branch=mlp, candidate=16/18, fold=1/3.
+2026-11-26T14:03:57  Classifier search progress 395/513: latent=256, branch=mlp, candidate=17/18, fold=1/3.
+2026-11-26T14:03:57  Classifier search progress 396/513: latent=256, branch=mlp, candidate=18/18, fold=1/3.
+2026-11-26T14:03:58  CV latent=256, branch=mlp, fold=1/3 complete; checkpoint saved.
+2026-11-26T14:03:58  Autoencoder training 35/45 started: latent=256, branch=mlp, fold=2/3.
+2026-11-26T14:04:44  Autoencoder training 35/45 complete after 13 epochs.
+2026-11-26T14:04:45  Classifier search progress 397/513: latent=256, branch=mlp, candidate=1/18, fold=2/3.
+2026-11-26T14:04:45  Classifier search progress 398/513: latent=256, branch=mlp, candidate=2/18, fold=2/3.
+2026-11-26T14:04:45  Classifier search progress 399/513: latent=256, branch=mlp, candidate=3/18, fold=2/3.
+2026-11-26T14:04:46  Classifier search progress 400/513: latent=256, branch=mlp, candidate=4/18, fold=2/3.
+2026-11-26T14:04:46  Classifier search progress 401/513: latent=256, branch=mlp, candidate=5/18, fold=2/3.
+2026-11-26T14:04:46  Classifier search progress 402/513: latent=256, branch=mlp, candidate=6/18, fold=2/3.
+2026-11-26T14:04:46  Classifier search progress 403/513: latent=256, branch=mlp, candidate=7/18, fold=2/3.
+2026-11-26T14:04:46  Classifier search progress 404/513: latent=256, branch=mlp, candidate=8/18, fold=2/3.
+2026-11-26T14:04:46  Classifier search progress 405/513: latent=256, branch=mlp, candidate=9/18, fold=2/3.
+2026-11-26T14:04:46  Classifier search progress 406/513: latent=256, branch=mlp, candidate=10/18, fold=2/3.
+2026-11-26T14:04:47  Classifier search progress 407/513: latent=256, branch=mlp, candidate=11/18, fold=2/3.
+2026-11-26T14:04:47  Classifier search progress 408/513: latent=256, branch=mlp, candidate=12/18, fold=2/3.
+2026-11-26T14:04:47  Classifier search progress 409/513: latent=256, branch=mlp, candidate=13/18, fold=2/3.
+2026-11-26T14:04:47  Classifier search progress 410/513: latent=256, branch=mlp, candidate=14/18, fold=2/3.
+2026-11-26T14:04:47  Classifier search progress 411/513: latent=256, branch=mlp, candidate=15/18, fold=2/3.
+2026-11-26T14:04:47  Classifier search progress 412/513: latent=256, branch=mlp, candidate=16/18, fold=2/3.
+2026-11-26T14:04:48  Classifier search progress 413/513: latent=256, branch=mlp, candidate=17/18, fold=2/3.
+2026-11-26T14:04:48  Classifier search progress 414/513: latent=256, branch=mlp, candidate=18/18, fold=2/3.
+2026-11-26T14:04:48  CV latent=256, branch=mlp, fold=2/3 complete; checkpoint saved.
+2026-11-26T14:04:48  Autoencoder training 36/45 started: latent=256, branch=mlp, fold=3/3.
+2026-11-26T14:09:16  Autoencoder training 36/45 complete after 80 epochs.
+2026-11-26T14:09:17  Classifier search progress 415/513: latent=256, branch=mlp, candidate=1/18, fold=3/3.
+2026-11-26T14:09:17  Classifier search progress 416/513: latent=256, branch=mlp, candidate=2/18, fold=3/3.
+2026-11-26T14:09:17  Classifier search progress 417/513: latent=256, branch=mlp, candidate=3/18, fold=3/3.
+2026-11-26T14:09:17  Classifier search progress 418/513: latent=256, branch=mlp, candidate=4/18, fold=3/3.
+2026-11-26T14:09:18  Classifier search progress 419/513: latent=256, branch=mlp, candidate=5/18, fold=3/3.
+2026-11-26T14:09:18  Classifier search progress 420/513: latent=256, branch=mlp, candidate=6/18, fold=3/3.
+2026-11-26T14:09:18  Classifier search progress 421/513: latent=256, branch=mlp, candidate=7/18, fold=3/3.
+2026-11-26T14:09:18  Classifier search progress 422/513: latent=256, branch=mlp, candidate=8/18, fold=3/3.
+2026-11-26T14:09:18  Classifier search progress 423/513: latent=256, branch=mlp, candidate=9/18, fold=3/3.
+2026-11-26T14:09:18  Classifier search progress 424/513: latent=256, branch=mlp, candidate=10/18, fold=3/3.
+2026-11-26T14:09:19  Classifier search progress 425/513: latent=256, branch=mlp, candidate=11/18, fold=3/3.
+2026-11-26T14:09:19  Classifier search progress 426/513: latent=256, branch=mlp, candidate=12/18, fold=3/3.
+2026-11-26T14:09:19  Classifier search progress 427/513: latent=256, branch=mlp, candidate=13/18, fold=3/3.
+2026-11-26T14:09:19  Classifier search progress 428/513: latent=256, branch=mlp, candidate=14/18, fold=3/3.
+2026-11-26T14:09:19  Classifier search progress 429/513: latent=256, branch=mlp, candidate=15/18, fold=3/3.
+2026-11-26T14:09:19  Classifier search progress 430/513: latent=256, branch=mlp, candidate=16/18, fold=3/3.
+2026-11-26T14:09:19  Classifier search progress 431/513: latent=256, branch=mlp, candidate=17/18, fold=3/3.
+2026-11-26T14:09:20  Classifier search progress 432/513: latent=256, branch=mlp, candidate=18/18, fold=3/3.
+2026-11-26T14:09:20  CV latent=256, branch=mlp, fold=3/3 complete; checkpoint saved.
+2026-11-26T14:09:20  Best mlp at latent size 256: macro F1=0.3316, params={'classifier__alpha': 0.01, 'classifier__hidden_layer_sizes': (128,), 'classifier__learning_rate_init': 0.001}
+2026-11-26T14:09:20  Autoencoder training 37/45 started: latent=256, branch=logistic_regression, fold=1/3.
+2026-11-26T14:13:25  Autoencoder training 37/45 complete after 73 epochs.
+2026-11-26T14:13:27  Classifier search progress 433/513: latent=256, branch=logistic_regression, candidate=1/3, fold=1/3.
+2026-11-26T14:13:27  Classifier search progress 434/513: latent=256, branch=logistic_regression, candidate=2/3, fold=1/3.
+2026-11-26T14:13:27  Classifier search progress 435/513: latent=256, branch=logistic_regression, candidate=3/3, fold=1/3.
+2026-11-26T14:13:27  CV latent=256, branch=logistic_regression, fold=1/3 complete; checkpoint saved.
+2026-11-26T14:13:27  Autoencoder training 38/45 started: latent=256, branch=logistic_regression, fold=2/3.
+2026-11-26T14:16:33  Autoencoder training 38/45 complete after 55 epochs.
+2026-11-26T14:16:34  Classifier search progress 436/513: latent=256, branch=logistic_regression, candidate=1/3, fold=2/3.
+2026-11-26T14:16:34  Classifier search progress 437/513: latent=256, branch=logistic_regression, candidate=2/3, fold=2/3.
+2026-11-26T14:16:34  Classifier search progress 438/513: latent=256, branch=logistic_regression, candidate=3/3, fold=2/3.
+2026-11-26T14:16:34  CV latent=256, branch=logistic_regression, fold=2/3 complete; checkpoint saved.
+2026-11-26T14:16:35  Autoencoder training 39/45 started: latent=256, branch=logistic_regression, fold=3/3.
+2026-11-26T14:19:01  Autoencoder training 39/45 complete after 43 epochs.
+2026-11-26T14:19:02  Classifier search progress 439/513: latent=256, branch=logistic_regression, candidate=1/3, fold=3/3.
+2026-11-26T14:19:02  Classifier search progress 440/513: latent=256, branch=logistic_regression, candidate=2/3, fold=3/3.
+2026-11-26T14:19:02  Classifier search progress 441/513: latent=256, branch=logistic_regression, candidate=3/3, fold=3/3.
+2026-11-26T14:19:02  CV latent=256, branch=logistic_regression, fold=3/3 complete; checkpoint saved.
+2026-11-26T14:19:03  Best logistic_regression at latent size 256: macro F1=0.3628, params={'classifier__C': 0.1}
+2026-11-26T14:19:03  Autoencoder training 40/45 started: latent=256, branch=random_forest, fold=1/3.
+2026-11-26T14:19:55  Autoencoder training 40/45 complete after 15 epochs.
+2026-11-26T14:19:57  Classifier search progress 442/513: latent=256, branch=random_forest, candidate=1/12, fold=1/3.
+2026-11-26T14:19:59  Classifier search progress 443/513: latent=256, branch=random_forest, candidate=2/12, fold=1/3.
+2026-11-26T14:20:00  Classifier search progress 444/513: latent=256, branch=random_forest, candidate=3/12, fold=1/3.
+2026-11-26T14:20:02  Classifier search progress 445/513: latent=256, branch=random_forest, candidate=4/12, fold=1/3.
+2026-11-26T14:20:03  Classifier search progress 446/513: latent=256, branch=random_forest, candidate=5/12, fold=1/3.
+2026-11-26T14:20:05  Classifier search progress 447/513: latent=256, branch=random_forest, candidate=6/12, fold=1/3.
+2026-11-26T14:20:06  Classifier search progress 448/513: latent=256, branch=random_forest, candidate=7/12, fold=1/3.
+2026-11-26T14:20:08  Classifier search progress 449/513: latent=256, branch=random_forest, candidate=8/12, fold=1/3.
+2026-11-26T14:20:09  Classifier search progress 450/513: latent=256, branch=random_forest, candidate=9/12, fold=1/3.
+2026-11-26T14:20:11  Classifier search progress 451/513: latent=256, branch=random_forest, candidate=10/12, fold=1/3.
+2026-11-26T14:20:12  Classifier search progress 452/513: latent=256, branch=random_forest, candidate=11/12, fold=1/3.
+2026-11-26T14:20:14  Classifier search progress 453/513: latent=256, branch=random_forest, candidate=12/12, fold=1/3.
+2026-11-26T14:20:14  CV latent=256, branch=random_forest, fold=1/3 complete; checkpoint saved.
+2026-11-26T14:20:14  Autoencoder training 41/45 started: latent=256, branch=random_forest, fold=2/3.
+2026-11-26T14:24:25  Autoencoder training 41/45 complete after 75 epochs.
+2026-11-26T14:24:27  Classifier search progress 454/513: latent=256, branch=random_forest, candidate=1/12, fold=2/3.
+2026-11-26T14:24:29  Classifier search progress 455/513: latent=256, branch=random_forest, candidate=2/12, fold=2/3.
+2026-11-26T14:24:30  Classifier search progress 456/513: latent=256, branch=random_forest, candidate=3/12, fold=2/3.
+2026-11-26T14:24:32  Classifier search progress 457/513: latent=256, branch=random_forest, candidate=4/12, fold=2/3.
+2026-11-26T14:24:33  Classifier search progress 458/513: latent=256, branch=random_forest, candidate=5/12, fold=2/3.
+2026-11-26T14:24:35  Classifier search progress 459/513: latent=256, branch=random_forest, candidate=6/12, fold=2/3.
+2026-11-26T14:24:36  Classifier search progress 460/513: latent=256, branch=random_forest, candidate=7/12, fold=2/3.
+2026-11-26T14:24:38  Classifier search progress 461/513: latent=256, branch=random_forest, candidate=8/12, fold=2/3.
+2026-11-26T14:24:39  Classifier search progress 462/513: latent=256, branch=random_forest, candidate=9/12, fold=2/3.
+2026-11-26T14:24:41  Classifier search progress 463/513: latent=256, branch=random_forest, candidate=10/12, fold=2/3.
+2026-11-26T14:24:41  Classifier search progress 464/513: latent=256, branch=random_forest, candidate=11/12, fold=2/3.
+2026-11-26T14:24:43  Classifier search progress 465/513: latent=256, branch=random_forest, candidate=12/12, fold=2/3.
+2026-11-26T14:24:43  CV latent=256, branch=random_forest, fold=2/3 complete; checkpoint saved.
+2026-11-26T14:24:44  Autoencoder training 42/45 started: latent=256, branch=random_forest, fold=3/3.
+2026-11-26T14:27:52  Autoencoder training 42/45 complete after 56 epochs.
+2026-11-26T14:27:54  Classifier search progress 466/513: latent=256, branch=random_forest, candidate=1/12, fold=3/3.
+2026-11-26T14:27:56  Classifier search progress 467/513: latent=256, branch=random_forest, candidate=2/12, fold=3/3.
+2026-11-26T14:27:57  Classifier search progress 468/513: latent=256, branch=random_forest, candidate=3/12, fold=3/3.
+2026-11-26T14:27:59  Classifier search progress 469/513: latent=256, branch=random_forest, candidate=4/12, fold=3/3.
+2026-11-26T14:28:00  Classifier search progress 470/513: latent=256, branch=random_forest, candidate=5/12, fold=3/3.
+2026-11-26T14:28:02  Classifier search progress 471/513: latent=256, branch=random_forest, candidate=6/12, fold=3/3.
+2026-11-26T14:28:03  Classifier search progress 472/513: latent=256, branch=random_forest, candidate=7/12, fold=3/3.
+2026-11-26T14:28:05  Classifier search progress 473/513: latent=256, branch=random_forest, candidate=8/12, fold=3/3.
+2026-11-26T14:28:06  Classifier search progress 474/513: latent=256, branch=random_forest, candidate=9/12, fold=3/3.
+2026-11-26T14:28:08  Classifier search progress 475/513: latent=256, branch=random_forest, candidate=10/12, fold=3/3.
+2026-11-26T14:28:09  Classifier search progress 476/513: latent=256, branch=random_forest, candidate=11/12, fold=3/3.
+2026-11-26T14:28:11  Classifier search progress 477/513: latent=256, branch=random_forest, candidate=12/12, fold=3/3.
+2026-11-26T14:28:11  CV latent=256, branch=random_forest, fold=3/3 complete; checkpoint saved.
+2026-11-26T14:28:11  Best random_forest at latent size 256: macro F1=0.3983, params={'max_depth': None, 'min_samples_leaf': 2, 'n_estimators': 500}
+2026-11-26T14:28:11  Autoencoder training 43/45 started: latent=256, branch=knn, fold=1/3.
+2026-11-26T14:30:07  Autoencoder training 43/45 complete after 34 epochs.
+2026-11-26T14:30:08  Classifier search progress 478/513: latent=256, branch=knn, candidate=1/12, fold=1/3.
+2026-11-26T14:30:08  Classifier search progress 479/513: latent=256, branch=knn, candidate=2/12, fold=1/3.
+2026-11-26T14:30:08  Classifier search progress 480/513: latent=256, branch=knn, candidate=3/12, fold=1/3.
+2026-11-26T14:30:08  Classifier search progress 481/513: latent=256, branch=knn, candidate=4/12, fold=1/3.
+2026-11-26T14:30:08  Classifier search progress 482/513: latent=256, branch=knn, candidate=5/12, fold=1/3.
+2026-11-26T14:30:08  Classifier search progress 483/513: latent=256, branch=knn, candidate=6/12, fold=1/3.
+2026-11-26T14:30:08  Classifier search progress 484/513: latent=256, branch=knn, candidate=7/12, fold=1/3.
+2026-11-26T14:30:08  Classifier search progress 485/513: latent=256, branch=knn, candidate=8/12, fold=1/3.
+2026-11-26T14:30:08  Classifier search progress 486/513: latent=256, branch=knn, candidate=9/12, fold=1/3.
+2026-11-26T14:30:08  Classifier search progress 487/513: latent=256, branch=knn, candidate=10/12, fold=1/3.
+2026-11-26T14:30:08  Classifier search progress 488/513: latent=256, branch=knn, candidate=11/12, fold=1/3.
+2026-11-26T14:30:08  Classifier search progress 489/513: latent=256, branch=knn, candidate=12/12, fold=1/3.
+2026-11-26T14:30:08  CV latent=256, branch=knn, fold=1/3 complete; checkpoint saved.
+2026-11-26T14:30:09  Autoencoder training 44/45 started: latent=256, branch=knn, fold=2/3.
+2026-11-26T14:33:27  Autoencoder training 44/45 complete after 59 epochs.
+2026-11-26T14:33:28  Classifier search progress 490/513: latent=256, branch=knn, candidate=1/12, fold=2/3.
+2026-11-26T14:33:28  Classifier search progress 491/513: latent=256, branch=knn, candidate=2/12, fold=2/3.
+2026-11-26T14:33:28  Classifier search progress 492/513: latent=256, branch=knn, candidate=3/12, fold=2/3.
+2026-11-26T14:33:28  Classifier search progress 493/513: latent=256, branch=knn, candidate=4/12, fold=2/3.
+2026-11-26T14:33:28  Classifier search progress 494/513: latent=256, branch=knn, candidate=5/12, fold=2/3.
+2026-11-26T14:33:29  Classifier search progress 495/513: latent=256, branch=knn, candidate=6/12, fold=2/3.
+2026-11-26T14:33:29  Classifier search progress 496/513: latent=256, branch=knn, candidate=7/12, fold=2/3.
+2026-11-26T14:33:29  Classifier search progress 497/513: latent=256, branch=knn, candidate=8/12, fold=2/3.
+2026-11-26T14:33:29  Classifier search progress 498/513: latent=256, branch=knn, candidate=9/12, fold=2/3.
+2026-11-26T14:33:29  Classifier search progress 499/513: latent=256, branch=knn, candidate=10/12, fold=2/3.
+2026-11-26T14:33:29  Classifier search progress 500/513: latent=256, branch=knn, candidate=11/12, fold=2/3.
+2026-11-26T14:33:29  Classifier search progress 501/513: latent=256, branch=knn, candidate=12/12, fold=2/3.
+2026-11-26T14:33:29  CV latent=256, branch=knn, fold=2/3 complete; checkpoint saved.
+2026-11-26T14:33:29  Autoencoder training 45/45 started: latent=256, branch=knn, fold=3/3.
+2026-11-26T14:37:08  Autoencoder training 45/45 complete after 65 epochs.
+2026-11-26T14:37:09  Classifier search progress 502/513: latent=256, branch=knn, candidate=1/12, fold=3/3.
+2026-11-26T14:37:09  Classifier search progress 503/513: latent=256, branch=knn, candidate=2/12, fold=3/3.
+2026-11-26T14:37:09  Classifier search progress 504/513: latent=256, branch=knn, candidate=3/12, fold=3/3.
+2026-11-26T14:37:09  Classifier search progress 505/513: latent=256, branch=knn, candidate=4/12, fold=3/3.
+2026-11-26T14:37:09  Classifier search progress 506/513: latent=256, branch=knn, candidate=5/12, fold=3/3.
+2026-11-26T14:37:09  Classifier search progress 507/513: latent=256, branch=knn, candidate=6/12, fold=3/3.
+2026-11-26T14:37:09  Classifier search progress 508/513: latent=256, branch=knn, candidate=7/12, fold=3/3.
+2026-11-26T14:37:09  Classifier search progress 509/513: latent=256, branch=knn, candidate=8/12, fold=3/3.
+2026-11-26T14:37:09  Classifier search progress 510/513: latent=256, branch=knn, candidate=9/12, fold=3/3.
+2026-11-26T14:37:09  Classifier search progress 511/513: latent=256, branch=knn, candidate=10/12, fold=3/3.
+2026-11-26T14:37:09  Classifier search progress 512/513: latent=256, branch=knn, candidate=11/12, fold=3/3.
+2026-11-26T14:37:09  Classifier search progress 513/513: latent=256, branch=knn, candidate=12/12, fold=3/3.
+2026-11-26T14:37:09  CV latent=256, branch=knn, fold=3/3 complete; checkpoint saved.
+2026-11-26T14:37:10  Best knn at latent size 256: macro F1=0.3370, params={'classifier__n_neighbors': 3, 'classifier__p': 1, 'classifier__weights': 'uniform'}
+2026-11-26T14:37:10  Best branch subset at latent size 256: branches=['mlp', 'random_forest', 'knn'], macro F1=0.4168, accuracy=0.4175
+2026-11-26T14:37:10  Selected by training-set cross-validation:
+2026-11-26T14:37:10  Latent size: 256
+2026-11-26T14:37:10  Branches: ['mlp', 'random_forest', 'knn']
+2026-11-26T14:37:10  Classifier parameters: {'mlp': {'classifier__alpha': 0.01, 'classifier__hidden_layer_sizes': (128,), 'classifier__learning_rate_init': 0.001}, 'random_forest': {'max_depth': None, 'min_samples_leaf': 2, 'n_estimators': 500}, 'knn': {'classifier__n_neighbors': 3, 'classifier__p': 1, 'classifier__weights': 'uniform'}}
+2026-11-26T14:37:10  CV macro F1: 0.4168
+2026-11-26T14:37:10  CV accuracy: 0.4175
+2026-11-26T14:37:10  Cross-validation search complete; now refitting the selected 3 branch(es) before validation and test evaluation.
+2026-11-26T14:37:10  Final model refit 1/3: mlp.
+2026-11-26T14:42:10  Final model refit 2/3: random_forest.
+2026-11-26T14:45:17  Final model refit 3/3: knn.
+2026-11-26T14:50:33  Run artifacts saved under C:\Users\gthra\Coding\Machine Learing Theory\EEE4773_final_project\results\grid_search_20261126_125153_541167

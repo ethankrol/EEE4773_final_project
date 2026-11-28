@@ -1,0 +1,17 @@
+[
+  {
+    "fold": 1,
+    "epochs_ran": 18,
+    "best_val_loss": 0.04944685101509094
+  },
+  {
+    "fold": 2,
+    "epochs_ran": 50,
+    "best_val_loss": 0.03164445608854294
+  },
+  {
+    "fold": 3,
+    "epochs_ran": 64,
+    "best_val_loss": 0.027995167300105095
+  }
+]

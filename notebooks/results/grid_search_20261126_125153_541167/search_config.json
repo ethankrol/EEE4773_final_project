@@ -1,0 +1,131 @@
+{
+  "latent_sizes": [
+    64,
+    128,
+    256
+  ],
+  "data_dir": "C:\\Users\\gthra\\Coding\\Machine Learing Theory\\EEE4773_final_project\\data",
+  "image_size": 224,
+  "seed": 42,
+  "cv_folds": 3,
+  "calibration_cv": 3,
+  "epochs": 80,
+  "batch_size": 32,
+  "patience": 4,
+  "autoencoder_validation_size": 0.1,
+  "classes": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "classifier_grids": {
+    "svm": {
+      "autoencoder_learning_rate": 0.001,
+      "estimator": "Pipeline(steps=[('scaler', StandardScaler()),\n                ('classifier', SVC(probability=False, random_state=42))])",
+      "param_grid": [
+        {
+          "classifier__kernel": [
+            "linear"
+          ],
+          "classifier__C": [
+            0.1,
+            1,
+            10
+          ]
+        },
+        {
+          "classifier__kernel": [
+            "rbf"
+          ],
+          "classifier__C": [
+            0.1,
+            1,
+            10
+          ],
+          "classifier__gamma": [
+            "scale",
+            0.01,
+            0.1
+          ]
+        }
+      ]
+    },
+    "mlp": {
+      "autoencoder_learning_rate": 0.001,
+      "estimator": "Pipeline(steps=[('scaler', StandardScaler()),\n                ('classifier',\n                 MLPClassifier(early_stopping=True, max_iter=500,\n                               n_iter_no_change=15, random_state=42))])",
+      "param_grid": {
+        "classifier__hidden_layer_sizes": [
+          [
+            32
+          ],
+          [
+            64
+          ],
+          [
+            128
+          ]
+        ],
+        "classifier__alpha": [
+          0.0001,
+          0.001,
+          0.01
+        ],
+        "classifier__learning_rate_init": [
+          0.0003,
+          0.001
+        ]
+      }
+    },
+    "logistic_regression": {
+      "autoencoder_learning_rate": 0.001,
+      "estimator": "Pipeline(steps=[('scaler', StandardScaler()),\n                ('classifier',\n                 LogisticRegression(max_iter=2000, random_state=42))])",
+      "param_grid": {
+        "classifier__C": [
+          0.1,
+          1,
+          10
+        ]
+      }
+    },
+    "random_forest": {
+      "autoencoder_learning_rate": 0.001,
+      "estimator": "RandomForestClassifier(n_jobs=-1, random_state=42)",
+      "param_grid": {
+        "n_estimators": [
+          200,
+          500
+        ],
+        "max_depth": [
+          null,
+          10,
+          20
+        ],
+        "min_samples_leaf": [
+          1,
+          2
+        ]
+      }
+    },
+    "knn": {
+      "autoencoder_learning_rate": 0.001,
+      "estimator": "Pipeline(steps=[('scaler', StandardScaler()),\n                ('classifier', KNeighborsClassifier())])",
+      "param_grid": {
+        "classifier__n_neighbors": [
+          3,
+          5,
+          9
+        ],
+        "classifier__weights": [
+          "uniform",
+          "distance"
+        ],
+        "classifier__p": [
+          1,
+          2
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+class,best_by,branch,latent_size,parameters,class_precision,class_recall,class_f1,true_support,predicted_as_class,overall_accuracy,overall_macro_f1
+Classroom,f1,svm,256,"{""classifier__C"": 10, ""classifier__gamma"": 0.01, ""classifier__kernel"": ""rbf""}",0.43243,0.42667,0.42953,75,74,0.37,0.37019
+Classroom,precision,random_forest,256,"{""max_depth"": null, ""min_samples_leaf"": 2, ""n_estimators"": 500}",0.46667,0.37333,0.41481,75,60,0.4,0.39832
+Classroom,recall,logistic_regression,128,"{""classifier__C"": 10}",0.32075,0.45333,0.37569,75,106,0.3325,0.33165
+Library,f1,knn,256,"{""classifier__n_neighbors"": 9, ""classifier__p"": 1, ""classifier__weights"": ""uniform""}",0.42308,0.53012,0.47059,83,104,0.345,0.33517
+Library,precision,svm,256,"{""classifier__C"": 10, ""classifier__gamma"": 0.1, ""classifier__kernel"": ""rbf""}",0.46429,0.46988,0.46707,83,84,0.335,0.33044
+Library,recall,svm,64,"{""classifier__C"": 10, ""classifier__gamma"": 0.01, ""classifier__kernel"": ""rbf""}",0.28509,0.78313,0.41801,83,228,0.31,0.26329
+Cafeteria,f1,logistic_regression,128,"{""classifier__C"": 0.1}",0.39744,0.39744,0.39744,78,78,0.3425,0.3408
+Cafeteria,precision,svm,64,"{""classifier__C"": 10, ""classifier__gamma"": ""scale"", ""classifier__kernel"": ""rbf""}",0.6,0.03846,0.07229,78,5,0.285,0.24722
+Cafeteria,recall,logistic_regression,128,"{""classifier__C"": 0.1}",0.39744,0.39744,0.39744,78,78,0.3425,0.3408
+Parking Area,f1,svm,128,"{""classifier__C"": 1, ""classifier__kernel"": ""linear""}",0.40698,0.4321,0.41916,81,86,0.355,0.35146
+Parking Area,precision,svm,128,"{""classifier__C"": 0.1, ""classifier__gamma"": 0.1, ""classifier__kernel"": ""rbf""}",0.66667,0.04938,0.09195,81,6,0.2625,0.24067
+Parking Area,recall,knn,256,"{""classifier__n_neighbors"": 3, ""classifier__p"": 1, ""classifier__weights"": ""uniform""}",0.35,0.51852,0.41791,81,120,0.345,0.33699
+Outdoor Campus Area,f1,svm,256,"{""classifier__C"": 10, ""classifier__kernel"": ""linear""}",0.38136,0.54217,0.44776,83,118,0.355,0.34538
+Outdoor Campus Area,precision,random_forest,64,"{""max_depth"": 10, ""min_samples_leaf"": 2, ""n_estimators"": 500}",0.4125,0.39759,0.40491,83,80,0.34,0.33791
+Outdoor Campus Area,recall,logistic_regression,64,"{""classifier__C"": 0.1}",0.20599,0.66265,0.31429,83,267,0.25,0.21394

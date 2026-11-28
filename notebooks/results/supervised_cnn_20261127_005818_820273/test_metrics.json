@@ -1,0 +1,90 @@
+{
+  "accuracy": 0.1746031746031746,
+  "baseline_accuracy": 0.20634920634920634,
+  "baseline_class_id": 1,
+  "confusion_matrix": [
+    [
+      22,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      26,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      25,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      26,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      26,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "classification_report": {
+    "Classroom": {
+      "precision": 0.176,
+      "recall": 0.9565217391304348,
+      "f1-score": 0.2972972972972973,
+      "support": 23.0
+    },
+    "Library": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 26.0
+    },
+    "Cafeteria": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 25.0
+    },
+    "Parking Area": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 26.0
+    },
+    "Outdoor Campus Area": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 26.0
+    },
+    "accuracy": 0.1746031746031746,
+    "macro avg": {
+      "precision": 0.035199999999999995,
+      "recall": 0.19130434782608696,
+      "f1-score": 0.05945945945945946,
+      "support": 126.0
+    },
+    "weighted avg": {
+      "precision": 0.03212698412698413,
+      "recall": 0.1746031746031746,
+      "f1-score": 0.05426855426855427,
+      "support": 126.0
+    }
+  },
+  "classification_report_text": "                     precision    recall  f1-score   support\n\n          Classroom       0.18      0.96      0.30        23\n            Library       0.00      0.00      0.00        26\n          Cafeteria       0.00      0.00      0.00        25\n       Parking Area       0.00      0.00      0.00        26\nOutdoor Campus Area       0.00      0.00      0.00        26\n\n           accuracy                           0.17       126\n          macro avg       0.04      0.19      0.06       126\n       weighted avg       0.03      0.17      0.05       126\n",
+  "macro_f1": 0.05945945945945946,
+  "weighted_f1": 0.05426855426855427
+}

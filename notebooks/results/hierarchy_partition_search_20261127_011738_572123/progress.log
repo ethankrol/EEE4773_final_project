@@ -1,0 +1,100 @@
+2026-11-27T01:17:38  Run folder: C:\Users\gthra\Coding\Machine Learing Theory\EEE4773_final_project\results\hierarchy_partition_search_20261127_011738_572123
+2026-11-27T01:17:38  Search plan: 15 unique partitions (5 one-versus-four and 10 two-versus-three), 3 classifier families per gate and per multi-class specialist, 3-fold CV, and 315 candidate hierarchies.
+2026-11-27T01:17:38  Fold encoder training 1/3 started for 266 training images.
+2026-11-27T01:19:38  Fold encoder training 1/3 complete after 18 epochs; features cached.
+2026-11-27T01:19:39  Fold encoder training 2/3 started for 267 training images.
+2026-11-27T01:25:15  Fold encoder training 2/3 complete after 50 epochs; features cached.
+2026-11-27T01:25:15  Fold encoder training 3/3 started for 267 training images.
+2026-11-27T01:31:32  Fold encoder training 3/3 complete after 64 epochs; features cached.
+2026-11-27T01:31:32  Partition 1/15: [Classroom] vs [Library + Cafeteria + Parking Area + Outdoor Campus Area].
+2026-11-27T01:31:33  Partition 1/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:34  Partition 1/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:35  Partition 1/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:35  Partition 1/15 CV best: macro F1=0.336, accuracy=0.343; candidate hierarchy configs scored=9/315.
+2026-11-27T01:31:35  Partition 2/15: [Library] vs [Classroom + Cafeteria + Parking Area + Outdoor Campus Area].
+2026-11-27T01:31:35  Partition 2/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:36  Partition 2/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:37  Partition 2/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:37  Partition 2/15 CV best: macro F1=0.337, accuracy=0.347; candidate hierarchy configs scored=18/315.
+2026-11-27T01:31:37  Partition 3/15: [Cafeteria] vs [Classroom + Library + Parking Area + Outdoor Campus Area].
+2026-11-27T01:31:38  Partition 3/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:38  Partition 3/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:39  Partition 3/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:39  Partition 3/15 CV best: macro F1=0.336, accuracy=0.340; candidate hierarchy configs scored=27/315.
+2026-11-27T01:31:39  Partition 4/15: [Parking Area] vs [Classroom + Library + Cafeteria + Outdoor Campus Area].
+2026-11-27T01:31:40  Partition 4/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:41  Partition 4/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:41  Partition 4/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:41  Partition 4/15 CV best: macro F1=0.353, accuracy=0.362; candidate hierarchy configs scored=36/315.
+2026-11-27T01:31:41  Partition 5/15: [Outdoor Campus Area] vs [Classroom + Library + Cafeteria + Parking Area].
+2026-11-27T01:31:42  Partition 5/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:43  Partition 5/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:44  Partition 5/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:44  Partition 5/15 CV best: macro F1=0.345, accuracy=0.350; candidate hierarchy configs scored=45/315.
+2026-11-27T01:31:44  Partition 6/15: [Classroom + Library] vs [Cafeteria + Parking Area + Outdoor Campus Area].
+2026-11-27T01:31:45  Partition 6/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:46  Partition 6/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:47  Partition 6/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:47  Partition 6/15 CV best: macro F1=0.341, accuracy=0.350; candidate hierarchy configs scored=72/315.
+2026-11-27T01:31:47  Partition 7/15: [Classroom + Cafeteria] vs [Library + Parking Area + Outdoor Campus Area].
+2026-11-27T01:31:48  Partition 7/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:49  Partition 7/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:50  Partition 7/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:50  Partition 7/15 CV best: macro F1=0.345, accuracy=0.345; candidate hierarchy configs scored=99/315.
+2026-11-27T01:31:50  Partition 8/15: [Classroom + Parking Area] vs [Library + Cafeteria + Outdoor Campus Area].
+2026-11-27T01:31:51  Partition 8/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:52  Partition 8/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:53  Partition 8/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:54  Partition 8/15 CV best: macro F1=0.360, accuracy=0.355; candidate hierarchy configs scored=126/315.
+2026-11-27T01:31:54  Partition 9/15: [Classroom + Outdoor Campus Area] vs [Library + Cafeteria + Parking Area].
+2026-11-27T01:31:55  Partition 9/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:56  Partition 9/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:57  Partition 9/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:57  Partition 9/15 CV best: macro F1=0.348, accuracy=0.350; candidate hierarchy configs scored=153/315.
+2026-11-27T01:31:57  Partition 10/15: [Library + Cafeteria] vs [Classroom + Parking Area + Outdoor Campus Area].
+2026-11-27T01:31:58  Partition 10/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:31:59  Partition 10/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:00  Partition 10/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:00  Partition 10/15 CV best: macro F1=0.332, accuracy=0.340; candidate hierarchy configs scored=180/315.
+2026-11-27T01:32:00  Partition 11/15: [Library + Parking Area] vs [Classroom + Cafeteria + Outdoor Campus Area].
+2026-11-27T01:32:01  Partition 11/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:02  Partition 11/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:03  Partition 11/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:04  Partition 11/15 CV best: macro F1=0.358, accuracy=0.357; candidate hierarchy configs scored=207/315.
+2026-11-27T01:32:04  Partition 12/15: [Library + Outdoor Campus Area] vs [Classroom + Cafeteria + Parking Area].
+2026-11-27T01:32:05  Partition 12/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:06  Partition 12/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:07  Partition 12/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:07  Partition 12/15 CV best: macro F1=0.359, accuracy=0.357; candidate hierarchy configs scored=234/315.
+2026-11-27T01:32:07  Partition 13/15: [Cafeteria + Parking Area] vs [Classroom + Library + Outdoor Campus Area].
+2026-11-27T01:32:08  Partition 13/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:09  Partition 13/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:10  Partition 13/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:10  Partition 13/15 CV best: macro F1=0.341, accuracy=0.347; candidate hierarchy configs scored=261/315.
+2026-11-27T01:32:10  Partition 14/15: [Cafeteria + Outdoor Campus Area] vs [Classroom + Library + Parking Area].
+2026-11-27T01:32:11  Partition 14/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:12  Partition 14/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:13  Partition 14/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:14  Partition 14/15 CV best: macro F1=0.354, accuracy=0.355; candidate hierarchy configs scored=288/315.
+2026-11-27T01:32:14  Partition 15/15: [Parking Area + Outdoor Campus Area] vs [Classroom + Library + Cafeteria].
+2026-11-27T01:32:15  Partition 15/15 fold 1/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:16  Partition 15/15 fold 2/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:17  Partition 15/15 fold 3/3 complete; out-of-fold checkpoint saved.
+2026-11-27T01:32:17  Partition 15/15 CV best: macro F1=0.348, accuracy=0.350; candidate hierarchy configs scored=315/315.
+2026-11-27T01:32:17  CV-leading partition: [Classroom + Parking Area] vs [Library + Cafeteria + Outdoor Campus Area], gate=random_forest, specialists=calibrated_svm / calibrated_svm, macro F1=0.360.
+2026-11-27T01:32:20  Final fit 1/15: validation accuracy=0.426, test accuracy=0.452.
+2026-11-27T01:32:21  Final fit 2/15: validation accuracy=0.426, test accuracy=0.437.
+2026-11-27T01:32:23  Final fit 3/15: validation accuracy=0.396, test accuracy=0.389.
+2026-11-27T01:32:24  Final fit 4/15: validation accuracy=0.406, test accuracy=0.397.
+2026-11-27T01:32:26  Final fit 5/15: validation accuracy=0.406, test accuracy=0.460.
+2026-11-27T01:32:27  Final fit 6/15: validation accuracy=0.436, test accuracy=0.413.
+2026-11-27T01:32:29  Final fit 7/15: validation accuracy=0.465, test accuracy=0.405.
+2026-11-27T01:32:31  Final fit 8/15: validation accuracy=0.426, test accuracy=0.397.
+2026-11-27T01:32:32  Final fit 9/15: validation accuracy=0.406, test accuracy=0.413.
+2026-11-27T01:32:35  Final fit 10/15: validation accuracy=0.416, test accuracy=0.429.
+2026-11-27T01:32:36  Final fit 11/15: validation accuracy=0.396, test accuracy=0.429.
+2026-11-27T01:32:37  Final fit 12/15: validation accuracy=0.396, test accuracy=0.341.
+2026-11-27T01:32:39  Final fit 13/15: validation accuracy=0.366, test accuracy=0.373.
+2026-11-27T01:32:40  Final fit 14/15: validation accuracy=0.376, test accuracy=0.421.
+2026-11-27T01:32:43  Final fit 15/15: validation accuracy=0.426, test accuracy=0.413.
+2026-11-27T01:32:56  All partition results saved under C:\Users\gthra\Coding\Machine Learing Theory\EEE4773_final_project\results\hierarchy_partition_search_20261127_011738_572123

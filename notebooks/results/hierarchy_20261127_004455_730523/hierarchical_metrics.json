@@ -1,0 +1,778 @@
+{
+  "encoder_path": "C:\\Users\\gthra\\Coding\\Machine Learing Theory\\EEE4773_final_project\\results\\grid_search_20261126_125153_541167\\encoder_random_forest.keras",
+  "gate_classifier_path": "C:\\Users\\gthra\\Coding\\Machine Learing Theory\\EEE4773_final_project\\results\\gate_20261126_192009_961890\\gate_classifier.joblib",
+  "selected_specialists": {
+    "indoor": "calibrated_svm",
+    "outdoor": "random_forest"
+  },
+  "validation_selected_pair": {
+    "indoor_model": "calibrated_svm",
+    "outdoor_model": "random_forest",
+    "validation_accuracy": 0.40594059405940597,
+    "validation_macro_f1": 0.4049471868390156,
+    "validation_weighted_f1": 0.4049828043557956
+  },
+  "specialist_metrics": {
+    "indoor": {
+      "model": "calibrated_svm",
+      "validation": {
+        "accuracy": 0.5166666666666667,
+        "baseline_accuracy": 0.35,
+        "baseline_class_id": 1,
+        "confusion_matrix": [
+          [
+            9,
+            3,
+            7
+          ],
+          [
+            4,
+            10,
+            7
+          ],
+          [
+            1,
+            7,
+            12
+          ]
+        ],
+        "classification_report": {
+          "Classroom": {
+            "precision": 0.6428571428571429,
+            "recall": 0.47368421052631576,
+            "f1-score": 0.5454545454545454,
+            "support": 19.0
+          },
+          "Library": {
+            "precision": 0.5,
+            "recall": 0.47619047619047616,
+            "f1-score": 0.4878048780487805,
+            "support": 21.0
+          },
+          "Cafeteria": {
+            "precision": 0.46153846153846156,
+            "recall": 0.6,
+            "f1-score": 0.5217391304347826,
+            "support": 20.0
+          },
+          "accuracy": 0.5166666666666667,
+          "macro avg": {
+            "precision": 0.5347985347985348,
+            "recall": 0.516624895572264,
+            "f1-score": 0.5183328513127029,
+            "support": 60.0
+          },
+          "weighted avg": {
+            "precision": 0.5324175824175825,
+            "recall": 0.5166666666666667,
+            "f1-score": 0.5173720235226068,
+            "support": 60.0
+          }
+        },
+        "classification_report_text": "              precision    recall  f1-score   support\n\n   Classroom       0.64      0.47      0.55        19\n     Library       0.50      0.48      0.49        21\n   Cafeteria       0.46      0.60      0.52        20\n\n    accuracy                           0.52        60\n   macro avg       0.53      0.52      0.52        60\nweighted avg       0.53      0.52      0.52        60\n",
+        "macro_f1": 0.5183328513127029,
+        "weighted_f1": 0.5173720235226068
+      },
+      "test": {
+        "accuracy": 0.5675675675675675,
+        "baseline_accuracy": 0.35135135135135137,
+        "baseline_class_id": 1,
+        "confusion_matrix": [
+          [
+            12,
+            3,
+            8
+          ],
+          [
+            4,
+            15,
+            7
+          ],
+          [
+            2,
+            8,
+            15
+          ]
+        ],
+        "classification_report": {
+          "Classroom": {
+            "precision": 0.6666666666666666,
+            "recall": 0.5217391304347826,
+            "f1-score": 0.5853658536585366,
+            "support": 23.0
+          },
+          "Library": {
+            "precision": 0.5769230769230769,
+            "recall": 0.5769230769230769,
+            "f1-score": 0.5769230769230769,
+            "support": 26.0
+          },
+          "Cafeteria": {
+            "precision": 0.5,
+            "recall": 0.6,
+            "f1-score": 0.5454545454545454,
+            "support": 25.0
+          },
+          "accuracy": 0.5675675675675675,
+          "macro avg": {
+            "precision": 0.5811965811965812,
+            "recall": 0.5662207357859531,
+            "f1-score": 0.5692478253453862,
+            "support": 74.0
+          },
+          "weighted avg": {
+            "precision": 0.5788288288288288,
+            "recall": 0.5675675675675675,
+            "f1-score": 0.5689159225744591,
+            "support": 74.0
+          }
+        },
+        "classification_report_text": "              precision    recall  f1-score   support\n\n   Classroom       0.67      0.52      0.59        23\n     Library       0.58      0.58      0.58        26\n   Cafeteria       0.50      0.60      0.55        25\n\n    accuracy                           0.57        74\n   macro avg       0.58      0.57      0.57        74\nweighted avg       0.58      0.57      0.57        74\n",
+        "macro_f1": 0.5692478253453862,
+        "weighted_f1": 0.5689159225744591
+      }
+    },
+    "outdoor": {
+      "model": "random_forest",
+      "validation": {
+        "accuracy": 0.6585365853658537,
+        "baseline_accuracy": 0.5121951219512195,
+        "baseline_class_id": 1,
+        "confusion_matrix": [
+          [
+            12,
+            8
+          ],
+          [
+            6,
+            15
+          ]
+        ],
+        "classification_report": {
+          "Parking Area": {
+            "precision": 0.6666666666666666,
+            "recall": 0.6,
+            "f1-score": 0.631578947368421,
+            "support": 20.0
+          },
+          "Outdoor Campus Area": {
+            "precision": 0.6521739130434783,
+            "recall": 0.7142857142857143,
+            "f1-score": 0.6818181818181818,
+            "support": 21.0
+          },
+          "accuracy": 0.6585365853658537,
+          "macro avg": {
+            "precision": 0.6594202898550725,
+            "recall": 0.6571428571428571,
+            "f1-score": 0.6566985645933014,
+            "support": 41.0
+          },
+          "weighted avg": {
+            "precision": 0.6592435489572287,
+            "recall": 0.6585365853658537,
+            "f1-score": 0.6573112381841522,
+            "support": 41.0
+          }
+        },
+        "classification_report_text": "                     precision    recall  f1-score   support\n\n       Parking Area       0.67      0.60      0.63        20\nOutdoor Campus Area       0.65      0.71      0.68        21\n\n           accuracy                           0.66        41\n          macro avg       0.66      0.66      0.66        41\n       weighted avg       0.66      0.66      0.66        41\n",
+        "macro_f1": 0.6566985645933014,
+        "weighted_f1": 0.6573112381841522
+      },
+      "test": {
+        "accuracy": 0.5384615384615384,
+        "baseline_accuracy": 0.5,
+        "baseline_class_id": 1,
+        "confusion_matrix": [
+          [
+            10,
+            16
+          ],
+          [
+            8,
+            18
+          ]
+        ],
+        "classification_report": {
+          "Parking Area": {
+            "precision": 0.5555555555555556,
+            "recall": 0.38461538461538464,
+            "f1-score": 0.45454545454545453,
+            "support": 26.0
+          },
+          "Outdoor Campus Area": {
+            "precision": 0.5294117647058824,
+            "recall": 0.6923076923076923,
+            "f1-score": 0.6,
+            "support": 26.0
+          },
+          "accuracy": 0.5384615384615384,
+          "macro avg": {
+            "precision": 0.542483660130719,
+            "recall": 0.5384615384615384,
+            "f1-score": 0.5272727272727272,
+            "support": 52.0
+          },
+          "weighted avg": {
+            "precision": 0.5424836601307189,
+            "recall": 0.5384615384615384,
+            "f1-score": 0.5272727272727272,
+            "support": 52.0
+          }
+        },
+        "classification_report_text": "                     precision    recall  f1-score   support\n\n       Parking Area       0.56      0.38      0.45        26\nOutdoor Campus Area       0.53      0.69      0.60        26\n\n           accuracy                           0.54        52\n          macro avg       0.54      0.54      0.53        52\n       weighted avg       0.54      0.54      0.53        52\n",
+        "macro_f1": 0.5272727272727272,
+        "weighted_f1": 0.5272727272727272
+      }
+    }
+  },
+  "hierarchical_metrics": {
+    "validation": {
+      "accuracy": 0.40594059405940597,
+      "baseline_accuracy": 0.2079207920792079,
+      "baseline_class_id": 1,
+      "confusion_matrix": [
+        [
+          8,
+          3,
+          4,
+          3,
+          1
+        ],
+        [
+          4,
+          8,
+          4,
+          2,
+          3
+        ],
+        [
+          1,
+          5,
+          5,
+          5,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          11
+        ]
+      ],
+      "classification_report": {
+        "Classroom": {
+          "precision": 0.5333333333333333,
+          "recall": 0.42105263157894735,
+          "f1-score": 0.47058823529411764,
+          "support": 19.0
+        },
+        "Library": {
+          "precision": 0.4,
+          "recall": 0.38095238095238093,
+          "f1-score": 0.3902439024390244,
+          "support": 21.0
+        },
+        "Cafeteria": {
+          "precision": 0.2631578947368421,
+          "recall": 0.25,
+          "f1-score": 0.2564102564102564,
+          "support": 20.0
+        },
+        "Parking Area": {
+          "precision": 0.391304347826087,
+          "recall": 0.45,
+          "f1-score": 0.4186046511627907,
+          "support": 20.0
+        },
+        "Outdoor Campus Area": {
+          "precision": 0.4583333333333333,
+          "recall": 0.5238095238095238,
+          "f1-score": 0.4888888888888889,
+          "support": 21.0
+        },
+        "accuracy": 0.40594059405940597,
+        "macro avg": {
+          "precision": 0.4092257818459191,
+          "recall": 0.40516290726817045,
+          "f1-score": 0.4049471868390156,
+          "support": 101.0
+        },
+        "weighted avg": {
+          "precision": 0.40839186321378135,
+          "recall": 0.40594059405940597,
+          "f1-score": 0.4049828043557956,
+          "support": 101.0
+        }
+      },
+      "classification_report_text": "                     precision    recall  f1-score   support\n\n          Classroom       0.53      0.42      0.47        19\n            Library       0.40      0.38      0.39        21\n          Cafeteria       0.26      0.25      0.26        20\n       Parking Area       0.39      0.45      0.42        20\nOutdoor Campus Area       0.46      0.52      0.49        21\n\n           accuracy                           0.41       101\n          macro avg       0.41      0.41      0.40       101\n       weighted avg       0.41      0.41      0.40       101\n",
+      "macro_f1": 0.4049471868390156,
+      "weighted_f1": 0.4049828043557956
+    },
+    "test": {
+      "accuracy": 0.4444444444444444,
+      "baseline_accuracy": 0.20634920634920634,
+      "baseline_class_id": 1,
+      "confusion_matrix": [
+        [
+          12,
+          2,
+          4,
+          3,
+          2
+        ],
+        [
+          4,
+          11,
+          5,
+          4,
+          2
+        ],
+        [
+          2,
+          8,
+          12,
+          2,
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          12
+        ],
+        [
+          0,
+          1,
+          2,
+          7,
+          16
+        ]
+      ],
+      "classification_report": {
+        "Classroom": {
+          "precision": 0.6,
+          "recall": 0.5217391304347826,
+          "f1-score": 0.5581395348837209,
+          "support": 23.0
+        },
+        "Library": {
+          "precision": 0.44,
+          "recall": 0.4230769230769231,
+          "f1-score": 0.43137254901960786,
+          "support": 26.0
+        },
+        "Cafeteria": {
+          "precision": 0.4444444444444444,
+          "recall": 0.48,
+          "f1-score": 0.46153846153846156,
+          "support": 25.0
+        },
+        "Parking Area": {
+          "precision": 0.23809523809523808,
+          "recall": 0.19230769230769232,
+          "f1-score": 0.2127659574468085,
+          "support": 26.0
+        },
+        "Outdoor Campus Area": {
+          "precision": 0.48484848484848486,
+          "recall": 0.6153846153846154,
+          "f1-score": 0.5423728813559322,
+          "support": 26.0
+        },
+        "accuracy": 0.4444444444444444,
+        "macro avg": {
+          "precision": 0.44147763347763347,
+          "recall": 0.4465016722408027,
+          "f1-score": 0.4412378768489062,
+          "support": 126.0
+        },
+        "weighted avg": {
+          "precision": 0.43767974529879294,
+          "recall": 0.4444444444444444,
+          "f1-score": 0.43829338828704906,
+          "support": 126.0
+        }
+      },
+      "classification_report_text": "                     precision    recall  f1-score   support\n\n          Classroom       0.60      0.52      0.56        23\n            Library       0.44      0.42      0.43        26\n          Cafeteria       0.44      0.48      0.46        25\n       Parking Area       0.24      0.19      0.21        26\nOutdoor Campus Area       0.48      0.62      0.54        26\n\n           accuracy                           0.44       126\n          macro avg       0.44      0.45      0.44       126\n       weighted avg       0.44      0.44      0.44       126\n",
+      "macro_f1": 0.4412378768489062,
+      "weighted_f1": 0.43829338828704906
+    }
+  },
+  "flat_ensemble_metrics": {
+    "equal_voting": {
+      "validation": {
+        "accuracy": 0.4752475247524752,
+        "baseline_accuracy": 0.2079207920792079,
+        "baseline_class_id": 1,
+        "confusion_matrix": [
+          [
+            10,
+            5,
+            1,
+            3,
+            0
+          ],
+          [
+            4,
+            10,
+            1,
+            3,
+            3
+          ],
+          [
+            1,
+            7,
+            7,
+            2,
+            3
+          ],
+          [
+            0,
+            2,
+            1,
+            10,
+            7
+          ],
+          [
+            2,
+            3,
+            2,
+            3,
+            11
+          ]
+        ],
+        "classification_report": {
+          "Classroom": {
+            "precision": 0.5882352941176471,
+            "recall": 0.5263157894736842,
+            "f1-score": 0.5555555555555556,
+            "support": 19.0
+          },
+          "Library": {
+            "precision": 0.37037037037037035,
+            "recall": 0.47619047619047616,
+            "f1-score": 0.4166666666666667,
+            "support": 21.0
+          },
+          "Cafeteria": {
+            "precision": 0.5833333333333334,
+            "recall": 0.35,
+            "f1-score": 0.4375,
+            "support": 20.0
+          },
+          "Parking Area": {
+            "precision": 0.47619047619047616,
+            "recall": 0.5,
+            "f1-score": 0.4878048780487805,
+            "support": 20.0
+          },
+          "Outdoor Campus Area": {
+            "precision": 0.4583333333333333,
+            "recall": 0.5238095238095238,
+            "f1-score": 0.4888888888888889,
+            "support": 21.0
+          },
+          "accuracy": 0.4752475247524752,
+          "macro avg": {
+            "precision": 0.4952925614690321,
+            "recall": 0.47526315789473683,
+            "f1-score": 0.47728319783197837,
+            "support": 101.0
+          },
+          "weighted avg": {
+            "precision": 0.49276955006425016,
+            "recall": 0.4752475247524752,
+            "f1-score": 0.4760229681504736,
+            "support": 101.0
+          }
+        },
+        "classification_report_text": "                     precision    recall  f1-score   support\n\n          Classroom       0.59      0.53      0.56        19\n            Library       0.37      0.48      0.42        21\n          Cafeteria       0.58      0.35      0.44        20\n       Parking Area       0.48      0.50      0.49        20\nOutdoor Campus Area       0.46      0.52      0.49        21\n\n           accuracy                           0.48       101\n          macro avg       0.50      0.48      0.48       101\n       weighted avg       0.49      0.48      0.48       101\n",
+        "macro_f1": 0.47728319783197837,
+        "weighted_f1": 0.4760229681504736
+      },
+      "test": {
+        "accuracy": 0.42857142857142855,
+        "baseline_accuracy": 0.20634920634920634,
+        "baseline_class_id": 1,
+        "confusion_matrix": [
+          [
+            14,
+            2,
+            5,
+            1,
+            1
+          ],
+          [
+            5,
+            12,
+            1,
+            6,
+            2
+          ],
+          [
+            3,
+            8,
+            11,
+            3,
+            0
+          ],
+          [
+            2,
+            5,
+            3,
+            5,
+            11
+          ],
+          [
+            0,
+            3,
+            3,
+            8,
+            12
+          ]
+        ],
+        "classification_report": {
+          "Classroom": {
+            "precision": 0.5833333333333334,
+            "recall": 0.6086956521739131,
+            "f1-score": 0.5957446808510638,
+            "support": 23.0
+          },
+          "Library": {
+            "precision": 0.4,
+            "recall": 0.46153846153846156,
+            "f1-score": 0.42857142857142855,
+            "support": 26.0
+          },
+          "Cafeteria": {
+            "precision": 0.4782608695652174,
+            "recall": 0.44,
+            "f1-score": 0.4583333333333333,
+            "support": 25.0
+          },
+          "Parking Area": {
+            "precision": 0.21739130434782608,
+            "recall": 0.19230769230769232,
+            "f1-score": 0.20408163265306123,
+            "support": 26.0
+          },
+          "Outdoor Campus Area": {
+            "precision": 0.46153846153846156,
+            "recall": 0.46153846153846156,
+            "f1-score": 0.46153846153846156,
+            "support": 26.0
+          },
+          "accuracy": 0.42857142857142855,
+          "macro avg": {
+            "precision": 0.4281047937569677,
+            "recall": 0.4328160535117057,
+            "f1-score": 0.4296539073894697,
+            "support": 126.0
+          },
+          "weighted avg": {
+            "precision": 0.42401081205429036,
+            "recall": 0.42857142857142855,
+            "f1-score": 0.42547175067257564,
+            "support": 126.0
+          }
+        },
+        "classification_report_text": "                     precision    recall  f1-score   support\n\n          Classroom       0.58      0.61      0.60        23\n            Library       0.40      0.46      0.43        26\n          Cafeteria       0.48      0.44      0.46        25\n       Parking Area       0.22      0.19      0.20        26\nOutdoor Campus Area       0.46      0.46      0.46        26\n\n           accuracy                           0.43       126\n          macro avg       0.43      0.43      0.43       126\n       weighted avg       0.42      0.43      0.43       126\n",
+        "macro_f1": 0.4296539073894697,
+        "weighted_f1": 0.42547175067257564
+      }
+    },
+    "oof_weighted_voting": {
+      "validation": {
+        "accuracy": 0.44554455445544555,
+        "baseline_accuracy": 0.2079207920792079,
+        "baseline_class_id": 1,
+        "confusion_matrix": [
+          [
+            11,
+            3,
+            2,
+            3,
+            0
+          ],
+          [
+            6,
+            8,
+            4,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            8,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            2,
+            9,
+            6
+          ],
+          [
+            2,
+            3,
+            3,
+            4,
+            9
+          ]
+        ],
+        "classification_report": {
+          "Classroom": {
+            "precision": 0.4782608695652174,
+            "recall": 0.5789473684210527,
+            "f1-score": 0.5238095238095238,
+            "support": 19.0
+          },
+          "Library": {
+            "precision": 0.4,
+            "recall": 0.38095238095238093,
+            "f1-score": 0.3902439024390244,
+            "support": 21.0
+          },
+          "Cafeteria": {
+            "precision": 0.42105263157894735,
+            "recall": 0.4,
+            "f1-score": 0.41025641025641024,
+            "support": 20.0
+          },
+          "Parking Area": {
+            "precision": 0.47368421052631576,
+            "recall": 0.45,
+            "f1-score": 0.46153846153846156,
+            "support": 20.0
+          },
+          "Outdoor Campus Area": {
+            "precision": 0.45,
+            "recall": 0.42857142857142855,
+            "f1-score": 0.43902439024390244,
+            "support": 21.0
+          },
+          "accuracy": 0.44554455445544555,
+          "macro avg": {
+            "precision": 0.44459954233409615,
+            "recall": 0.4476942355889724,
+            "f1-score": 0.44497453765746453,
+            "support": 101.0
+          },
+          "weighted avg": {
+            "precision": 0.4438781521172712,
+            "recall": 0.44554455445544555,
+            "f1-score": 0.4435931934120777,
+            "support": 101.0
+          }
+        },
+        "classification_report_text": "                     precision    recall  f1-score   support\n\n          Classroom       0.48      0.58      0.52        19\n            Library       0.40      0.38      0.39        21\n          Cafeteria       0.42      0.40      0.41        20\n       Parking Area       0.47      0.45      0.46        20\nOutdoor Campus Area       0.45      0.43      0.44        21\n\n           accuracy                           0.45       101\n          macro avg       0.44      0.45      0.44       101\n       weighted avg       0.44      0.45      0.44       101\n",
+        "macro_f1": 0.44497453765746453,
+        "weighted_f1": 0.4435931934120777
+      },
+      "test": {
+        "accuracy": 0.4365079365079365,
+        "baseline_accuracy": 0.20634920634920634,
+        "baseline_class_id": 1,
+        "confusion_matrix": [
+          [
+            14,
+            2,
+            4,
+            1,
+            2
+          ],
+          [
+            5,
+            13,
+            1,
+            4,
+            3
+          ],
+          [
+            3,
+            9,
+            10,
+            3,
+            0
+          ],
+          [
+            2,
+            5,
+            4,
+            5,
+            10
+          ],
+          [
+            0,
+            3,
+            3,
+            7,
+            13
+          ]
+        ],
+        "classification_report": {
+          "Classroom": {
+            "precision": 0.5833333333333334,
+            "recall": 0.6086956521739131,
+            "f1-score": 0.5957446808510638,
+            "support": 23.0
+          },
+          "Library": {
+            "precision": 0.40625,
+            "recall": 0.5,
+            "f1-score": 0.4482758620689655,
+            "support": 26.0
+          },
+          "Cafeteria": {
+            "precision": 0.45454545454545453,
+            "recall": 0.4,
+            "f1-score": 0.425531914893617,
+            "support": 25.0
+          },
+          "Parking Area": {
+            "precision": 0.25,
+            "recall": 0.19230769230769232,
+            "f1-score": 0.21739130434782608,
+            "support": 26.0
+          },
+          "Outdoor Campus Area": {
+            "precision": 0.4642857142857143,
+            "recall": 0.5,
+            "f1-score": 0.48148148148148145,
+            "support": 26.0
+          },
+          "accuracy": 0.4365079365079365,
+          "macro avg": {
+            "precision": 0.4316829004329004,
+            "recall": 0.44020066889632103,
+            "f1-score": 0.43368504872859076,
+            "support": 126.0
+          },
+          "weighted avg": {
+            "precision": 0.42789072699786984,
+            "recall": 0.4365079365079365,
+            "f1-score": 0.4298911934703967,
+            "support": 126.0
+          }
+        },
+        "classification_report_text": "                     precision    recall  f1-score   support\n\n          Classroom       0.58      0.61      0.60        23\n            Library       0.41      0.50      0.45        26\n          Cafeteria       0.45      0.40      0.43        25\n       Parking Area       0.25      0.19      0.22        26\nOutdoor Campus Area       0.46      0.50      0.48        26\n\n           accuracy                           0.44       126\n          macro avg       0.43      0.44      0.43       126\n       weighted avg       0.43      0.44      0.43       126\n",
+        "macro_f1": 0.43368504872859076,
+        "weighted_f1": 0.4298911934703967
+      }
+    }
+  },
+  "run_dir": "C:\\Users\\gthra\\Coding\\Machine Learing Theory\\EEE4773_final_project\\results\\hierarchy_20261127_004455_730523"
+}

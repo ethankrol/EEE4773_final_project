@@ -1,0 +1,102 @@
+image_index_in_split,true_class,predicted_class,confidence,correct
+0,Outdoor Campus Area,Classroom,0.23963652551174164,False
+1,Outdoor Campus Area,Classroom,0.23376892507076263,False
+2,Classroom,Classroom,0.24351096153259277,True
+3,Outdoor Campus Area,Classroom,0.23825842142105103,False
+4,Library,Classroom,0.24299916625022888,False
+5,Cafeteria,Classroom,0.24118557572364807,False
+6,Parking Area,Classroom,0.23190832138061523,False
+7,Library,Classroom,0.24741040170192719,False
+8,Library,Classroom,0.24474866688251495,False
+9,Parking Area,Classroom,0.24474576115608215,False
+10,Cafeteria,Classroom,0.23101003468036652,False
+11,Library,Classroom,0.2446025162935257,False
+12,Parking Area,Classroom,0.24315504729747772,False
+13,Library,Classroom,0.2407832145690918,False
+14,Classroom,Classroom,0.23985345661640167,True
+15,Parking Area,Classroom,0.22970907390117645,False
+16,Library,Classroom,0.24950145184993744,False
+17,Parking Area,Classroom,0.2474544793367386,False
+18,Library,Classroom,0.23288238048553467,False
+19,Outdoor Campus Area,Classroom,0.2486635148525238,False
+20,Outdoor Campus Area,Classroom,0.2353481501340866,False
+21,Classroom,Classroom,0.24488773941993713,True
+22,Parking Area,Classroom,0.24297548830509186,False
+23,Cafeteria,Classroom,0.22708380222320557,False
+24,Parking Area,Classroom,0.24280737340450287,False
+25,Cafeteria,Classroom,0.24479123950004578,False
+26,Cafeteria,Classroom,0.242045059800148,False
+27,Parking Area,Classroom,0.23927535116672516,False
+28,Outdoor Campus Area,Classroom,0.24161367118358612,False
+29,Classroom,Classroom,0.24587062001228333,True
+30,Cafeteria,Classroom,0.24868462979793549,False
+31,Library,Classroom,0.25611358880996704,False
+32,Classroom,Classroom,0.22546710073947906,True
+33,Outdoor Campus Area,Classroom,0.22559049725532532,False
+34,Outdoor Campus Area,Classroom,0.24126526713371277,False
+35,Outdoor Campus Area,Classroom,0.24380040168762207,False
+36,Library,Classroom,0.2474643886089325,False
+37,Cafeteria,Classroom,0.24328221380710602,False
+38,Classroom,Classroom,0.25264182686805725,True
+39,Outdoor Campus Area,Classroom,0.23714929819107056,False
+40,Library,Classroom,0.24367229640483856,False
+41,Parking Area,Classroom,0.24195298552513123,False
+42,Classroom,Classroom,0.24808868765830994,True
+43,Parking Area,Classroom,0.24635738134384155,False
+44,Cafeteria,Classroom,0.24614174664020538,False
+45,Outdoor Campus Area,Classroom,0.2329956591129303,False
+46,Cafeteria,Classroom,0.23571468889713287,False
+47,Classroom,Classroom,0.24716615676879883,True
+48,Outdoor Campus Area,Classroom,0.22890856862068176,False
+49,Classroom,Classroom,0.25380590558052063,True
+50,Library,Classroom,0.24868345260620117,False
+51,Library,Classroom,0.2447429597377777,False
+52,Classroom,Classroom,0.24890652298927307,True
+53,Parking Area,Classroom,0.24152050912380219,False
+54,Classroom,Classroom,0.24724556505680084,True
+55,Cafeteria,Classroom,0.24281242489814758,False
+56,Classroom,Classroom,0.24505004286766052,True
+57,Cafeteria,Classroom,0.2460353523492813,False
+58,Parking Area,Classroom,0.2360956221818924,False
+59,Outdoor Campus Area,Classroom,0.2407199889421463,False
+60,Library,Classroom,0.24472641944885254,False
+61,Classroom,Classroom,0.25108709931373596,True
+62,Parking Area,Classroom,0.23149828612804413,False
+63,Cafeteria,Classroom,0.2440299093723297,False
+64,Outdoor Campus Area,Classroom,0.22552460432052612,False
+65,Classroom,Classroom,0.24849721789360046,True
+66,Cafeteria,Classroom,0.2442626953125,False
+67,Cafeteria,Classroom,0.2474730908870697,False
+68,Parking Area,Classroom,0.23434743285179138,False
+69,Library,Classroom,0.24133484065532684,False
+70,Classroom,Classroom,0.23779141902923584,True
+71,Parking Area,Classroom,0.23084336519241333,False
+72,Cafeteria,Classroom,0.24314656853675842,False
+73,Outdoor Campus Area,Classroom,0.23495879769325256,False
+74,Cafeteria,Classroom,0.24556119740009308,False
+75,Parking Area,Classroom,0.24232469499111176,False
+76,Outdoor Campus Area,Classroom,0.22589507699012756,False
+77,Outdoor Campus Area,Classroom,0.23054265975952148,False
+78,Parking Area,Classroom,0.23748379945755005,False
+79,Classroom,Classroom,0.2493329644203186,True
+80,Outdoor Campus Area,Classroom,0.24098655581474304,False
+81,Library,Classroom,0.24397782981395721,False
+82,Library,Classroom,0.24439376592636108,False
+83,Library,Classroom,0.24697288870811462,False
+84,Classroom,Classroom,0.24842512607574463,True
+85,Classroom,Classroom,0.2465357631444931,True
+86,Cafeteria,Classroom,0.24635154008865356,False
+87,Library,Classroom,0.24520081281661987,False
+88,Outdoor Campus Area,Classroom,0.24006624519824982,False
+89,Parking Area,Classroom,0.24220624566078186,False
+90,Parking Area,Classroom,0.24864482879638672,False
+91,Classroom,Classroom,0.2494923621416092,True
+92,Outdoor Campus Area,Classroom,0.23478607833385468,False
+93,Outdoor Campus Area,Classroom,0.24155494570732117,False
+94,Library,Classroom,0.24268671870231628,False
+95,Library,Classroom,0.2410729080438614,False
+96,Cafeteria,Classroom,0.24424095451831818,False
+97,Library,Classroom,0.2411721795797348,False
+98,Parking Area,Classroom,0.24248787760734558,False
+99,Cafeteria,Classroom,0.24758243560791016,False
+100,Cafeteria,Classroom,0.24417437613010406,False

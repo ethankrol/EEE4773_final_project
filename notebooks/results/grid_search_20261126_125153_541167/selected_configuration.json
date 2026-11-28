@@ -1,0 +1,30 @@
+{
+  "latent_size": 256,
+  "branches": [
+    "mlp",
+    "random_forest",
+    "knn"
+  ],
+  "classifier_parameters": {
+    "mlp": {
+      "classifier__alpha": 0.01,
+      "classifier__hidden_layer_sizes": [
+        128
+      ],
+      "classifier__learning_rate_init": 0.001
+    },
+    "random_forest": {
+      "max_depth": null,
+      "min_samples_leaf": 2,
+      "n_estimators": 500
+    },
+    "knn": {
+      "classifier__n_neighbors": 3,
+      "classifier__p": 1,
+      "classifier__weights": "uniform"
+    }
+  },
+  "accuracy": 0.4175,
+  "macro_f1": 0.4167696198157439,
+  "weighted_f1": 0.4163496820920792
+}
