@@ -1,0 +1,25 @@
+{
+  "encoder_path": "C:\\Users\\gthra\\Coding\\Machine Learing Theory\\EEE4773_final_project\\results\\grid_search_20261126_125153_541167\\encoder_random_forest.keras",
+  "flat_run_dir": "C:\\Users\\gthra\\Coding\\Machine Learing Theory\\EEE4773_final_project\\results\\grid_search_20261126_125153_541167",
+  "data_dir": "C:\\Users\\gthra\\Coding\\Machine Learing Theory\\EEE4773_final_project\\data",
+  "image_size": 224,
+  "latent_size": 256,
+  "seed": 42,
+  "cv_folds": 3,
+  "epochs": 80,
+  "batch_size": 32,
+  "patience": 4,
+  "autoencoder_validation_size": 0.1,
+  "class_names": [
+    "Classroom",
+    "Library",
+    "Cafeteria",
+    "Parking Area",
+    "Outdoor Campus Area"
+  ],
+  "classifier_definitions": {
+    "logistic_regression": "Pipeline(steps=[('scaler', StandardScaler()),\n                ('classifier',\n                 LogisticRegression(max_iter=2000, random_state=42))])",
+    "calibrated_svm": "CalibratedClassifierCV(cv=3, ensemble=False,\n                       estimator=Pipeline(steps=[('scaler', StandardScaler()),\n                                                 ('classifier',\n                                                  SVC(probability=False,\n                                                      random_state=42))]))",
+    "random_forest": "RandomForestClassifier(min_samples_leaf=2, n_estimators=300, n_jobs=-1,\n                       random_state=42)"
+  }
+}

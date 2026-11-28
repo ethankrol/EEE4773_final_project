@@ -1,0 +1,98 @@
+{
+  "encoder_path": "C:\\Users\\gthra\\Coding\\Machine Learing Theory\\EEE4773_final_project\\results\\grid_search_20261126_125153_541167\\encoder_random_forest.keras",
+  "classifier": "StandardScaler + LogisticRegression",
+  "classifier_parameters": {
+    "C": 1.0,
+    "max_iter": 2000
+  },
+  "classes": [
+    "Indoor",
+    "Outdoor"
+  ],
+  "validation": {
+    "accuracy": 0.7029702970297029,
+    "baseline_accuracy": 0.594059405940594,
+    "baseline_class_id": 0,
+    "confusion_matrix": [
+      [
+        45,
+        15
+      ],
+      [
+        15,
+        26
+      ]
+    ],
+    "classification_report": {
+      "Indoor": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 60.0
+      },
+      "Outdoor": {
+        "precision": 0.6341463414634146,
+        "recall": 0.6341463414634146,
+        "f1-score": 0.6341463414634146,
+        "support": 41.0
+      },
+      "accuracy": 0.7029702970297029,
+      "macro avg": {
+        "precision": 0.6920731707317074,
+        "recall": 0.6920731707317074,
+        "f1-score": 0.6920731707317074,
+        "support": 101.0
+      },
+      "weighted avg": {
+        "precision": 0.7029702970297029,
+        "recall": 0.7029702970297029,
+        "f1-score": 0.7029702970297029,
+        "support": 101.0
+      }
+    },
+    "classification_report_text": "              precision    recall  f1-score   support\n\n      Indoor       0.75      0.75      0.75        60\n     Outdoor       0.63      0.63      0.63        41\n\n    accuracy                           0.70       101\n   macro avg       0.69      0.69      0.69       101\nweighted avg       0.70      0.70      0.70       101\n"
+  },
+  "test": {
+    "accuracy": 0.8015873015873016,
+    "baseline_accuracy": 0.5873015873015873,
+    "baseline_class_id": 0,
+    "confusion_matrix": [
+      [
+        65,
+        9
+      ],
+      [
+        16,
+        36
+      ]
+    ],
+    "classification_report": {
+      "Indoor": {
+        "precision": 0.8024691358024691,
+        "recall": 0.8783783783783784,
+        "f1-score": 0.8387096774193549,
+        "support": 74.0
+      },
+      "Outdoor": {
+        "precision": 0.8,
+        "recall": 0.6923076923076923,
+        "f1-score": 0.7422680412371134,
+        "support": 52.0
+      },
+      "accuracy": 0.8015873015873016,
+      "macro avg": {
+        "precision": 0.8012345679012346,
+        "recall": 0.7853430353430353,
+        "f1-score": 0.7904888593282342,
+        "support": 126.0
+      },
+      "weighted avg": {
+        "precision": 0.8014501273760533,
+        "recall": 0.8015873015873016,
+        "f1-score": 0.798908367248906,
+        "support": 126.0
+      }
+    },
+    "classification_report_text": "              precision    recall  f1-score   support\n\n      Indoor       0.80      0.88      0.84        74\n     Outdoor       0.80      0.69      0.74        52\n\n    accuracy                           0.80       126\n   macro avg       0.80      0.79      0.79       126\nweighted avg       0.80      0.80      0.80       126\n"
+  }
+}
